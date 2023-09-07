@@ -191,7 +191,7 @@ func (c *Console) initExtensions() error {
 	if err != nil {
 		return fmt.Errorf("api modules: %v", err)
 	}
-	aliases := map[string]struct{}{"ftm": {}, "personal": {}}
+	aliases := map[string]struct{}{"vc": {}, "personal": {}}
 	for api := range apis {
 		if api == "web3" {
 			continue
@@ -299,15 +299,15 @@ func (c *Console) AutoCompleteInput(line string, pos int) (string, []string, str
 // Welcome show summary of current Geth instance and some metadata about the
 // console's available modules.
 func (c *Console) Welcome() {
-	message := "Welcome to the Lachesis JavaScript console!\n\n"
+	message := "Welcome to the Vinu JavaScript console!\n\n"
 
 	// Print some generic Geth metadata
 	if res, err := c.jsre.Run(`
 		var message = "instance: " + web3.version.node + "\n";
 		try {
-			message += "coinbase: " + ftm.coinbase + "\n";
+			message += "coinbase: " + vc.coinbase + "\n";
 		} catch (err) {}
-		message += "at block: " + ftm.blockNumber + " (" + new Date(1000 * ftm.getBlock(ftm.blockNumber).timestamp) + ")\n";
+		message += "at block: " + vc.blockNumber + " (" + new Date(1000 * vc.getBlock(vc.blockNumber).timestamp) + ")\n";
 		try {
 			message += " datadir: " + admin.datadir + "\n";
 		} catch (err) {}
