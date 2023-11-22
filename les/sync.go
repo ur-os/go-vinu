@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/eth/downloader"
-	"github.com/ur-os/go-vinu/light"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
+	"go-vinu/eth/downloader"
+	"go-vinu/light"
+	"go-vinu/log"
+	"go-vinu/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

@@ -21,15 +21,15 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ur-os/go-vinu"
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/rpc"
-	"github.com/ur-os/go-vinu/signer/core/apitypes"
+	"go-vinu"
+	"go-vinu/accounts"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/core/types"
+	"go-vinu/event"
+	"go-vinu/log"
+	"go-vinu/rpc"
+	"go-vinu/signer/core/apitypes"
 )
 
 type ExternalBackend struct {

@@ -24,13 +24,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/discover"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/nat"
-	"github.com/ur-os/go-vinu/p2p/netutil"
+	"go-vinu/cmd/utils"
+	"go-vinu/crypto"
+	"go-vinu/log"
+	"go-vinu/p2p/discover"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/nat"
+	"go-vinu/p2p/netutil"
 )
 
 func main() {

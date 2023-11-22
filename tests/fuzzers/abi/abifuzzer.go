@@ -22,7 +22,7 @@ import (
 	"strings"
 
 	fuzz "github.com/google/gofuzz"
-	"github.com/ur-os/go-vinu/accounts/abi"
+	"go-vinu/accounts/abi"
 )
 
 var (

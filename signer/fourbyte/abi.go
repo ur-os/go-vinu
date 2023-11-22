@@ -23,8 +23,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ur-os/go-vinu/accounts/abi"
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/accounts/abi"
+	"go-vinu/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

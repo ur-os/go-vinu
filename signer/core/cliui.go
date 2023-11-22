@@ -24,10 +24,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/console/prompt"
-	"github.com/ur-os/go-vinu/internal/ethapi"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common/hexutil"
+	"go-vinu/console/prompt"
+	"go-vinu/internal/ethapi"
+	"go-vinu/log"
 )
 
 type CommandlineUI struct {

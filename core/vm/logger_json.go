@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/math"
+	"go-vinu/common"
+	"go-vinu/common/math"
 )
 
 type JSONLogger struct {

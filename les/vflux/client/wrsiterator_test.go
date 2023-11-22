@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/p2p/nodestate"
+	"go-vinu/common/mclock"
+	"go-vinu/p2p/nodestate"
 )
 
 var (

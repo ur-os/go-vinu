@@ -21,11 +21,11 @@ import (
 	"sync"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
+	"go-vinu/ethdb"
+	"go-vinu/rlp"
+	"go-vinu/trie"
 )
 
 // diskLayer is a low level persistent snapshot built on top of a key-value store.

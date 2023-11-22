@@ -19,7 +19,7 @@ package p2p
 import (
 	"container/heap"
 
-	"github.com/ur-os/go-vinu/common/mclock"
+	"go-vinu/common/mclock"
 )
 
 // expHeap tracks strings and their expiry time.

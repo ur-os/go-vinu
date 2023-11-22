@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
 )
 
 var _ = (*headerMarshaling)(nil)

@@ -26,16 +26,16 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/bitutil"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/common/bitutil"
+	"go-vinu/core"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/ethdb"
+	"go-vinu/log"
+	"go-vinu/params"
+	"go-vinu/rlp"
+	"go-vinu/trie"
 )
 
 // IndexerConfig includes a set of configs for chain indexers.

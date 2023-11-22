@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/nodestate"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/nodestate"
 )
 
 // FillSet tries to read nodes from an input iterator and add them to a node set by

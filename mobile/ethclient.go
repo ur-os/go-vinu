@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/ethclient"
+	"go-vinu/core/types"
+	"go-vinu/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

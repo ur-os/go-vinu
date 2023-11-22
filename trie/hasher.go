@@ -19,8 +19,8 @@ package trie
 import (
 	"sync"
 
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/crypto"
+	"go-vinu/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

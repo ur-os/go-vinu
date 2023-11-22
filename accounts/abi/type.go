@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 // Type enumerator

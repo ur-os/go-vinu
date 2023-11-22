@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
+	"go-vinu/params"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

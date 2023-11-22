@@ -25,8 +25,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/common"
+	"go-vinu/p2p/enode"
 )
 
 const jsonIndent = "    "

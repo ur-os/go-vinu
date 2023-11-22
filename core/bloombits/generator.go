@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/core/types"
 )
 
 var (

@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/rlp"
+	"go-vinu/trie"
 )
 
 // NodeIterator is an iterator to traverse the entire state trie post-order,

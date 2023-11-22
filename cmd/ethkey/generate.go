@@ -24,9 +24,9 @@ import (
 	"path/filepath"
 
 	"github.com/google/uuid"
-	"github.com/ur-os/go-vinu/accounts/keystore"
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/accounts/keystore"
+	"go-vinu/cmd/utils"
+	"go-vinu/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

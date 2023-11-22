@@ -24,9 +24,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/common/math"
+	"go-vinu/crypto"
+	"go-vinu/p2p/enode"
 )
 
 // node represents a host on the network.

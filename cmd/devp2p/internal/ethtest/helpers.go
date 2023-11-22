@@ -24,13 +24,13 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/eth/protocols/eth"
-	"github.com/ur-os/go-vinu/internal/utesting"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/rlpx"
+	"go-vinu/common"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
+	"go-vinu/eth/protocols/eth"
+	"go-vinu/internal/utesting"
+	"go-vinu/p2p"
+	"go-vinu/p2p/rlpx"
 )
 
 var (

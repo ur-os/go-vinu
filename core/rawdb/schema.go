@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/metrics"
+	"go-vinu/common"
+	"go-vinu/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

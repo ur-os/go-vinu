@@ -23,10 +23,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/accounts/abi/bind"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/contracts/checkpointoracle/contract"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/accounts/abi/bind"
+	"go-vinu/common"
+	"go-vinu/contracts/checkpointoracle/contract"
+	"go-vinu/core/types"
 )
 
 // CheckpointOracle is a Go wrapper around an on-chain checkpoint oracle contract.

@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/ur-os/go-vinu/les/utils"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/les/utils"
+	"go-vinu/rlp"
 )
 
 const (

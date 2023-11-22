@@ -24,17 +24,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/les/flowcontrol"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/common/mclock"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
+	"go-vinu/les/flowcontrol"
+	"go-vinu/log"
+	"go-vinu/p2p"
+	"go-vinu/p2p/enode"
+	"go-vinu/params"
+	"go-vinu/rlp"
 )
 
 // requestBenchmark is an interface for different randomized request generators

@@ -20,7 +20,7 @@ import (
 	"container/heap"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
+	"go-vinu/common/mclock"
 )
 
 // LazyQueue is a priority queue data structure where priorities can change over

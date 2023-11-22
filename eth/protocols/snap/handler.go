@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/state/snapshot"
-	"github.com/ur-os/go-vinu/light"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/metrics"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/enr"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/core/state"
+	"go-vinu/core/state/snapshot"
+	"go-vinu/light"
+	"go-vinu/log"
+	"go-vinu/metrics"
+	"go-vinu/p2p"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/enr"
+	"go-vinu/rlp"
+	"go-vinu/trie"
 )
 
 const (

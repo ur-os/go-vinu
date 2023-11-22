@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/common/hexutil"
+	"go-vinu/crypto"
+	"go-vinu/p2p/enode"
 )
 
 func TestVector_ECDH(t *testing.T) {

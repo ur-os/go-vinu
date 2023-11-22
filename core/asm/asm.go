@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/ur-os/go-vinu/core/vm"
+	"go-vinu/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

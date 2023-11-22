@@ -22,13 +22,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/crypto/blake2b"
-	"github.com/ur-os/go-vinu/crypto/bls12381"
-	"github.com/ur-os/go-vinu/crypto/bn256"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/common/math"
+	"go-vinu/crypto"
+	"go-vinu/crypto/blake2b"
+	"go-vinu/crypto/bls12381"
+	"go-vinu/crypto/bn256"
+	"go-vinu/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/crypto"
 )
 
 func TestKDF(t *testing.T) {

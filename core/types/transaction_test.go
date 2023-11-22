@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/crypto"
+	"go-vinu/rlp"
 )
 
 // The values in those tests are from the Transaction Tests

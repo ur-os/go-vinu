@@ -19,9 +19,9 @@ package client
 import (
 	"sync"
 
-	"github.com/ur-os/go-vinu/les/utils"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/nodestate"
+	"go-vinu/les/utils"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/nodestate"
 )
 
 // WrsIterator returns nodes from the specified selectable set with a weighted random

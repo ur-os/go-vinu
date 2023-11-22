@@ -20,8 +20,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/common"
+	"go-vinu/core/types"
 )
 
 // senderFromServer is a types.Signer that remembers the sender address returned by the RPC

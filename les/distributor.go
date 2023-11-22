@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/les/utils"
+	"go-vinu/common/mclock"
+	"go-vinu/les/utils"
 )
 
 // requestDistributor implements a mechanism that distributes requests to

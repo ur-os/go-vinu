@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/ur-os/go-vinu/crypto"
+	ethcrypto "go-vinu/crypto"
 )
 
 var (

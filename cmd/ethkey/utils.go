@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/cmd/utils"
+	"go-vinu/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

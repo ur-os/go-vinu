@@ -24,14 +24,14 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/console/prompt"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/cmd/utils"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/console/prompt"
+	"go-vinu/core/rawdb"
+	"go-vinu/ethdb"
+	"go-vinu/log"
+	"go-vinu/trie"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -26,8 +26,8 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/accounts"
+	"go-vinu/crypto"
 	"golang.org/x/crypto/pbkdf2"
 )
 

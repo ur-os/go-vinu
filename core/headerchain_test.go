@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/consensus"
-	"github.com/ur-os/go-vinu/consensus/ethash"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/consensus"
+	"go-vinu/consensus/ethash"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/log"
+	"go-vinu/params"
 )
 
 func verifyUnbrokenCanonchain(hc *HeaderChain) error {

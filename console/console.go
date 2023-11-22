@@ -31,11 +31,11 @@ import (
 	"github.com/dop251/goja"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
-	"github.com/ur-os/go-vinu/console/prompt"
-	"github.com/ur-os/go-vinu/internal/jsre"
-	"github.com/ur-os/go-vinu/internal/jsre/deps"
-	"github.com/ur-os/go-vinu/internal/web3ext"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/console/prompt"
+	"go-vinu/internal/jsre"
+	"go-vinu/internal/jsre/deps"
+	"go-vinu/internal/web3ext"
+	"go-vinu/rpc"
 )
 
 var (

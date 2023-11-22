@@ -22,10 +22,10 @@ import (
 
 	"github.com/VictoriaMetrics/fastcache"
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
+	"go-vinu/ethdb"
+	"go-vinu/trie"
 )
 
 const (

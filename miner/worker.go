@@ -25,16 +25,16 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/consensus"
-	"github.com/ur-os/go-vinu/consensus/misc"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/consensus"
+	"go-vinu/consensus/misc"
+	"go-vinu/core"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/event"
+	"go-vinu/log"
+	"go-vinu/params"
+	"go-vinu/trie"
 )
 
 const (

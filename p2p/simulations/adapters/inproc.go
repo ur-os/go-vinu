@@ -25,13 +25,13 @@ import (
 	"sync"
 
 	"github.com/gorilla/websocket"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/node"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/simulations/pipes"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/event"
+	"go-vinu/log"
+	"go-vinu/node"
+	"go-vinu/p2p"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/simulations/pipes"
+	"go-vinu/rpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

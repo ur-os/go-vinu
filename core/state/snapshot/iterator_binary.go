@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

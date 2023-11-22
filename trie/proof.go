@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/ethdb/memorydb"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/ethdb"
+	"go-vinu/ethdb/memorydb"
+	"go-vinu/log"
+	"go-vinu/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

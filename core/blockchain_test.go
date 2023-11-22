@@ -27,17 +27,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/consensus"
-	"github.com/ur-os/go-vinu/consensus/ethash"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/consensus"
+	"go-vinu/consensus/ethash"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/core/vm"
+	"go-vinu/crypto"
+	"go-vinu/ethdb"
+	"go-vinu/params"
+	"go-vinu/trie"
 )
 
 // So we can deterministically seed different blockchains
@@ -1438,7 +1438,7 @@ func TestEIP161AccountRemoval(t *testing.T) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/ur-os/go-vinu/pull/15941
+// https://go-vinu/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()
@@ -1701,8 +1701,8 @@ func TestIncompleteAncientReceiptChainInsertion(t *testing.T) {
 // overtake the 'canon' chain until after it's passed canon by about 200 blocks.
 //
 // Details at:
-//   - https://github.com/ur-os/go-vinu/issues/18977
-//   - https://github.com/ur-os/go-vinu/pull/18988
+//   - https://go-vinu/issues/18977
+//   - https://go-vinu/pull/18988
 func TestLowDiffLongChain(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()

@@ -24,13 +24,13 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/accounts/external"
-	"github.com/ur-os/go-vinu/accounts/keystore"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/accounts"
+	"go-vinu/accounts/external"
+	"go-vinu/accounts/keystore"
+	"go-vinu/common"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
+	"go-vinu/log"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

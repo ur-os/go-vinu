@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/tests"
+	"go-vinu/core/vm"
+	"go-vinu/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

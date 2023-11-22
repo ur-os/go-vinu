@@ -31,9 +31,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common"
+	"go-vinu/core"
+	"go-vinu/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ur-os/go-vinu/tests/fuzzers/les"
+	"go-vinu/tests/fuzzers/les"
 )
 
 func main() {

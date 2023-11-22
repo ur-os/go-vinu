@@ -22,16 +22,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/consensus"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/eth/fetcher"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/light"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/common"
+	"go-vinu/consensus"
+	"go-vinu/core"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/eth/fetcher"
+	"go-vinu/ethdb"
+	"go-vinu/light"
+	"go-vinu/log"
+	"go-vinu/p2p/enode"
 )
 
 const (
@@ -244,6 +244,7 @@ func (f *lightFetcher) forEachPeer(check func(id enode.ID, p *fetcherPeer) bool)
 }
 
 // mainloop is the main event loop of the light fetcher, which is responsible for
+//
 //   - announcement maintenance(ulc)
 //     If we are running in ultra light client mode, then all announcements from
 //     the trusted servers are maintained. If the same announcements from trusted

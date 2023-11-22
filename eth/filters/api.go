@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/core/types"
+	"go-vinu/ethdb"
+	"go-vinu/event"
+	"go-vinu/rpc"
 )
 
 // filter is a helper struct that holds meta information over the filter type

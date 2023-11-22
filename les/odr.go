@@ -22,10 +22,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/light"
+	"go-vinu/common/mclock"
+	"go-vinu/core"
+	"go-vinu/ethdb"
+	"go-vinu/light"
 )
 
 // LesOdr implements light.OdrBackend

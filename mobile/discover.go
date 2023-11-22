@@ -22,7 +22,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/p2p/enode"
 )
 
 // Enode represents a host on the network.

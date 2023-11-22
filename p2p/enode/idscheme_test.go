@@ -25,9 +25,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/p2p/enr"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/crypto"
+	"go-vinu/p2p/enr"
+	"go-vinu/rlp"
 )
 
 var (

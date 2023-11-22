@@ -26,12 +26,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/prque"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/metrics"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/common/prque"
+	"go-vinu/core/types"
+	"go-vinu/log"
+	"go-vinu/metrics"
+	"go-vinu/trie"
 )
 
 const (

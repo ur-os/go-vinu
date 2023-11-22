@@ -24,7 +24,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

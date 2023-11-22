@@ -22,9 +22,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/internal/debug"
-	"github.com/ur-os/go-vinu/internal/flags"
+	"go-vinu/cmd/utils"
+	"go-vinu/internal/debug"
+	"go-vinu/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

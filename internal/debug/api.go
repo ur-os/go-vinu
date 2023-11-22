@@ -34,7 +34,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // Handler is the global debugging handler.

@@ -27,11 +27,11 @@ import (
 	"time"
 
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/enr"
+	"go-vinu/common/mclock"
+	"go-vinu/crypto"
+	"go-vinu/log"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/enr"
 	"golang.org/x/sync/singleflight"
 	"golang.org/x/time/rate"
 )

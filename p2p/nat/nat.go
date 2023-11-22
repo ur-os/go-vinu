@@ -26,7 +26,7 @@ import (
 	"time"
 
 	natpmp "github.com/jackpal/go-nat-pmp"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // An implementation of nat.Interface can map local ports to ports

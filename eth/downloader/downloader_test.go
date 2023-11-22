@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/state/snapshot"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/eth/protocols/eth"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/state/snapshot"
+	"go-vinu/core/types"
+	"go-vinu/eth/protocols/eth"
+	"go-vinu/ethdb"
+	"go-vinu/event"
+	"go-vinu/trie"
 )
 
 // Reduce some of the parameters to make the tester faster.

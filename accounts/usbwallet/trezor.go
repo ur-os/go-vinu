@@ -28,12 +28,12 @@ import (
 	"math/big"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/accounts/usbwallet/trezor"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/accounts"
+	"go-vinu/accounts/usbwallet/trezor"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/core/types"
+	"go-vinu/log"
 )
 
 // ErrTrezorPINNeeded is returned if opening the trezor requires a PIN code. In

@@ -32,10 +32,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/netutil"
+	"go-vinu/common"
+	"go-vinu/log"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/netutil"
 )
 
 const (

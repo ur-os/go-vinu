@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/ur-os/go-vinu/core/asm"
+	"go-vinu/core/asm"
 	"gopkg.in/urfave/cli.v1"
 )
 

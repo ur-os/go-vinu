@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ur-os/go-vinu/ethdb"
+	"go-vinu/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

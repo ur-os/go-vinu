@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 const (

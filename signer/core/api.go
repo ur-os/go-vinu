@@ -25,16 +25,16 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/accounts/keystore"
-	"github.com/ur-os/go-vinu/accounts/scwallet"
-	"github.com/ur-os/go-vinu/accounts/usbwallet"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/internal/ethapi"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/signer/core/apitypes"
-	"github.com/ur-os/go-vinu/signer/storage"
+	"go-vinu/accounts"
+	"go-vinu/accounts/keystore"
+	"go-vinu/accounts/scwallet"
+	"go-vinu/accounts/usbwallet"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/internal/ethapi"
+	"go-vinu/log"
+	"go-vinu/signer/core/apitypes"
+	"go-vinu/signer/storage"
 )
 
 const (

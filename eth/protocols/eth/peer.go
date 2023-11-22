@@ -22,10 +22,10 @@ import (
 	"sync"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/core/types"
+	"go-vinu/p2p"
+	"go-vinu/rlp"
 )
 
 const (

@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

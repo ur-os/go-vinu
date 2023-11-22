@@ -19,7 +19,7 @@ package abi
 import (
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 type packUnpackTest struct {

@@ -29,12 +29,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/discover/discfilter"
-	"github.com/ur-os/go-vinu/p2p/discover/v4wire"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/netutil"
+	"go-vinu/crypto"
+	"go-vinu/log"
+	"go-vinu/p2p/discover/discfilter"
+	"go-vinu/p2p/discover/v4wire"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/netutil"
 )
 
 // Errors

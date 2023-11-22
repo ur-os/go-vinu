@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/ur-os/go-vinu"
-	"github.com/ur-os/go-vinu/accounts/abi"
-	"github.com/ur-os/go-vinu/accounts/abi/bind"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/event"
+	ethereum "go-vinu"
+	"go-vinu/accounts/abi"
+	"go-vinu/accounts/abi/bind"
+	"go-vinu/common"
+	"go-vinu/core/types"
+	"go-vinu/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

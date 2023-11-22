@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

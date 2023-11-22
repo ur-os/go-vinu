@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ur-os/go-vinu/cmd/devp2p/internal/v4test"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/p2p/discover"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/cmd/devp2p/internal/v4test"
+	"go-vinu/common"
+	"go-vinu/crypto"
+	"go-vinu/p2p/discover"
+	"go-vinu/p2p/enode"
+	"go-vinu/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

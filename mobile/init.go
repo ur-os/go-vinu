@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 func init() {

@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/ur-os/go-vinu/common/bitutil"
-	"github.com/ur-os/go-vinu/core/rawdb"
+	"go-vinu/common/bitutil"
+	"go-vinu/core/rawdb"
 )
 
 const (

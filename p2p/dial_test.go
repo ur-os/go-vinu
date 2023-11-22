@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/internal/testlog"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/netutil"
+	"go-vinu/common/mclock"
+	"go-vinu/internal/testlog"
+	"go-vinu/log"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/netutil"
 )
 
 // This test checks that dynamic dials are launched from discovery results.

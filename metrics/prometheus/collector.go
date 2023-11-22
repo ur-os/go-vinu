@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ur-os/go-vinu/metrics"
+	"go-vinu/metrics"
 )
 
 var (

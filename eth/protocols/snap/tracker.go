@@ -19,7 +19,7 @@ package snap
 import (
 	"time"
 
-	"github.com/ur-os/go-vinu/p2p/tracker"
+	"go-vinu/p2p/tracker"
 )
 
 // requestTracker is a singleton tracker for request times.

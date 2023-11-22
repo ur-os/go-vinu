@@ -22,8 +22,8 @@ import (
 	"strings"
 
 	"github.com/cloudflare/cloudflare-go"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/dnsdisc"
+	"go-vinu/log"
+	"go-vinu/p2p/dnsdisc"
 	"gopkg.in/urfave/cli.v1"
 )
 

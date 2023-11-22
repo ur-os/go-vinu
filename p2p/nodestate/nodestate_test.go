@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/enr"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common/mclock"
+	"go-vinu/core/rawdb"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/enr"
+	"go-vinu/rlp"
 )
 
 func testSetup(flagPersist []bool, fieldType []reflect.Type) (*Setup, []Flags, []Field) {

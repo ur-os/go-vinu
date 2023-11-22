@@ -21,8 +21,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/common/prque"
+	"go-vinu/common/mclock"
+	"go-vinu/common/prque"
 )
 
 // servingQueue allows running tasks in a limited number of threads and puts the

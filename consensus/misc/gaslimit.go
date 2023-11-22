@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

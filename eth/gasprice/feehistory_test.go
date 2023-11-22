@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {

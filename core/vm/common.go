@@ -18,8 +18,8 @@ package vm
 
 import (
 	"github.com/holiman/uint256"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/math"
+	"go-vinu/common"
+	"go-vinu/common/math"
 )
 
 // calcMemSize64 calculates the required memory size, and returns

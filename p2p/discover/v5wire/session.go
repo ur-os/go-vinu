@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/hashicorp/golang-lru/simplelru"
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/common/mclock"
+	"go-vinu/crypto"
+	"go-vinu/p2p/enode"
 )
 
 const handshakeTimeout = time.Second

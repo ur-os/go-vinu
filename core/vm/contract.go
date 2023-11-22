@@ -20,7 +20,7 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 // ContractRef is a reference to the contract's backing object

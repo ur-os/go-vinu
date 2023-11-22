@@ -20,11 +20,11 @@ import (
 	"crypto/ecdsa"
 	"net"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/enr"
-	"github.com/ur-os/go-vinu/p2p/netutil"
+	"go-vinu/common/mclock"
+	"go-vinu/log"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/enr"
+	"go-vinu/p2p/netutil"
 )
 
 // UDPConn is a network connection on which discovery can operate.

@@ -35,10 +35,10 @@ import (
 
 	"github.com/edsrzf/mmap-go"
 	"github.com/hashicorp/golang-lru/simplelru"
-	"github.com/ur-os/go-vinu/consensus"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/metrics"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/consensus"
+	"go-vinu/log"
+	"go-vinu/metrics"
+	"go-vinu/rpc"
 )
 
 var ErrInvalidDumpMagic = errors.New("invalid dump magic")

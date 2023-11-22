@@ -23,10 +23,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/p2p/discover/v4wire"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/enr"
+	"go-vinu/crypto"
+	"go-vinu/p2p/discover/v4wire"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/enr"
 )
 
 func TestUDPv4_Lookup(t *testing.T) {

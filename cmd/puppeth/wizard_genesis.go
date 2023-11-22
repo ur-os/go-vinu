@@ -29,10 +29,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/core"
+	"go-vinu/log"
+	"go-vinu/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

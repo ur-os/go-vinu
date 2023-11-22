@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	"github.com/mattn/go-colorable"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common"
+	"go-vinu/log"
 )
 
 func TestEncryption(t *testing.T) {

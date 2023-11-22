@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/ethdb/memorydb"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/common/mclock"
+	"go-vinu/ethdb/memorydb"
+	"go-vinu/p2p/enode"
 
-	"github.com/ur-os/go-vinu/les/utils"
+	"go-vinu/les/utils"
 )
 
 const (

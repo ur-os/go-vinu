@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/params"
 )
 
 var (

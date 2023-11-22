@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 func TestFacebook(t *testing.T) {

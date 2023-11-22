@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/ur-os/go-vinu/common"
+import "go-vinu/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

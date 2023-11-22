@@ -27,17 +27,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/tests"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/common/math"
+	"go-vinu/core"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/core/vm"
+	"go-vinu/crypto"
+	"go-vinu/params"
+	"go-vinu/rlp"
+	"go-vinu/tests"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

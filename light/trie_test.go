@@ -24,13 +24,13 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ur-os/go-vinu/consensus/ethash"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/consensus/ethash"
+	"go-vinu/core"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/state"
+	"go-vinu/core/vm"
+	"go-vinu/params"
+	"go-vinu/trie"
 )
 
 func TestNodeIterator(t *testing.T) {

@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/ur-os/go-vinu/les/utils"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/les/utils"
+	"go-vinu/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor

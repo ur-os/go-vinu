@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/event"
+	"go-vinu/p2p/enode"
+	"go-vinu/rlp"
 )
 
 // Msg defines the structure of a p2p message.

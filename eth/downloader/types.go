@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

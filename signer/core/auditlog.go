@@ -20,11 +20,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/internal/ethapi"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/signer/core/apitypes"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/internal/ethapi"
+	"go-vinu/log"
+	"go-vinu/signer/core/apitypes"
 )
 
 type AuditLogger struct {

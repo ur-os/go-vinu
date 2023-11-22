@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/common/math"
+	"go-vinu/core/types"
 )
 
 var _ = (*btHeaderMarshaling)(nil)

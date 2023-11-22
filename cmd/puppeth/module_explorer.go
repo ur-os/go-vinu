@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // explorerDockerfile is the Dockerfile required to run a block explorer.

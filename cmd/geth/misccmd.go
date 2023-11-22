@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/consensus/ethash"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/cmd/utils"
+	"go-vinu/consensus/ethash"
+	"go-vinu/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

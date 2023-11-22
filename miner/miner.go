@@ -22,16 +22,16 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/consensus"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/eth/downloader"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/consensus"
+	"go-vinu/core"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/eth/downloader"
+	"go-vinu/event"
+	"go-vinu/log"
+	"go-vinu/params"
 )
 
 // Backend wraps all methods required for mining.

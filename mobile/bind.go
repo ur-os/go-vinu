@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ur-os/go-vinu/accounts/abi"
-	"github.com/ur-os/go-vinu/accounts/abi/bind"
-	"github.com/ur-os/go-vinu/accounts/keystore"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/accounts/abi"
+	"go-vinu/accounts/abi/bind"
+	"go-vinu/accounts/keystore"
+	"go-vinu/common"
+	"go-vinu/core/types"
 )
 
 // Signer is an interface defining the callback when a contract requires a

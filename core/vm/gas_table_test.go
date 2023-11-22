@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/state"
+	"go-vinu/params"
 )
 
 func TestMemoryGasCost(t *testing.T) {

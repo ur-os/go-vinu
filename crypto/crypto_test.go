@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
 )
 
 var testAddrHex = "970e8128ab834e8eac17ab8e3812f010678cf791"

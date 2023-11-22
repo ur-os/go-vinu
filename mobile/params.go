@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/core"
+	"go-vinu/p2p/enode"
+	"go-vinu/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

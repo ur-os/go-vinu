@@ -26,17 +26,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/accounts/external"
-	"github.com/ur-os/go-vinu/accounts/keystore"
-	"github.com/ur-os/go-vinu/accounts/scwallet"
-	"github.com/ur-os/go-vinu/accounts/usbwallet"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/accounts"
+	"go-vinu/accounts/external"
+	"go-vinu/accounts/keystore"
+	"go-vinu/accounts/scwallet"
+	"go-vinu/accounts/usbwallet"
+	"go-vinu/common"
+	"go-vinu/crypto"
+	"go-vinu/log"
+	"go-vinu/p2p"
+	"go-vinu/p2p/enode"
+	"go-vinu/rpc"
 )
 
 const (

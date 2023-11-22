@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
 )
 
 func filledStateDB() *StateDB {

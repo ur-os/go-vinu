@@ -27,8 +27,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/common"
+	"go-vinu/crypto"
 )
 
 var jsonEventTransfer = []byte(`{

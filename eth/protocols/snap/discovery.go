@@ -17,7 +17,7 @@
 package snap
 
 import (
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `snap` protocol on the discovery.

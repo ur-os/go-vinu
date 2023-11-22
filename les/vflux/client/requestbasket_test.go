@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ur-os/go-vinu/les/utils"
+	"go-vinu/les/utils"
 )
 
 func checkU64(t *testing.T, name string, value, exp uint64) {

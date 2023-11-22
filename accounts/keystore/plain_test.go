@@ -27,8 +27,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/common"
+	"go-vinu/crypto"
 )
 
 func tmpKeyStoreIface(t *testing.T, encrypted bool) (dir string, ks keyStore) {

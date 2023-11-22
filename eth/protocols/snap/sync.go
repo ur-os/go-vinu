@@ -29,19 +29,19 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/state/snapshot"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/light"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/msgrate"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/common/math"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/state"
+	"go-vinu/core/state/snapshot"
+	"go-vinu/crypto"
+	"go-vinu/ethdb"
+	"go-vinu/event"
+	"go-vinu/light"
+	"go-vinu/log"
+	"go-vinu/p2p/msgrate"
+	"go-vinu/rlp"
+	"go-vinu/trie"
 )
 
 var (

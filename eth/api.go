@@ -28,16 +28,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/internal/ethapi"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/rpc"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/core"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/internal/ethapi"
+	"go-vinu/rlp"
+	"go-vinu/rpc"
+	"go-vinu/trie"
 )
 
 // PublicEthereumAPI provides an API to access Ethereum full node-related

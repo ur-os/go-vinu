@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/rlp"
 )
 
 var rnd = rand.New(rand.NewSource(time.Now().UnixNano()))

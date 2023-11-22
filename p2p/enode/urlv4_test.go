@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/p2p/enr"
+	"go-vinu/crypto"
+	"go-vinu/p2p/enr"
 )
 
 func init() {

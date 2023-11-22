@@ -27,13 +27,13 @@ import (
 	"time"
 
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/consensus"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/consensus"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/ethdb"
+	"go-vinu/log"
+	"go-vinu/params"
 )
 
 const (

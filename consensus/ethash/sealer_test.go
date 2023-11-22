@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/internal/testlog"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common"
+	"go-vinu/core/types"
+	"go-vinu/internal/testlog"
+	"go-vinu/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

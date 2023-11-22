@@ -20,10 +20,10 @@ import (
 	"crypto/ecdsa"
 	"fmt"
 
-	"github.com/ur-os/go-vinu/eth/protocols/eth"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/rlpx"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/eth/protocols/eth"
+	"go-vinu/p2p"
+	"go-vinu/p2p/rlpx"
+	"go-vinu/rlp"
 )
 
 type Message interface {

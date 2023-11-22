@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ur-os/go-vinu/accounts/abi/bind"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/contracts/checkpointoracle"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/accounts/abi/bind"
+	"go-vinu/common"
+	"go-vinu/contracts/checkpointoracle"
+	"go-vinu/crypto"
+	"go-vinu/log"
+	"go-vinu/params"
 )
 
 // CheckpointOracle is responsible for offering the latest stable checkpoint

@@ -27,13 +27,13 @@ import (
 
 	"github.com/docker/docker/pkg/reexec"
 	"github.com/gorilla/websocket"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/node"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/enr"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/crypto"
+	"go-vinu/log"
+	"go-vinu/node"
+	"go-vinu/p2p"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/enr"
+	"go-vinu/rpc"
 )
 
 // Node represents a node in a simulation network which is created by a

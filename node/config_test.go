@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/p2p"
+	"go-vinu/crypto"
+	"go-vinu/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

@@ -30,17 +30,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/discover"
-	"github.com/ur-os/go-vinu/p2p/discover/discfilter"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/enr"
-	"github.com/ur-os/go-vinu/p2p/nat"
-	"github.com/ur-os/go-vinu/p2p/netutil"
+	"go-vinu/common"
+	"go-vinu/common/mclock"
+	"go-vinu/crypto"
+	"go-vinu/event"
+	"go-vinu/log"
+	"go-vinu/p2p/discover"
+	"go-vinu/p2p/discover/discfilter"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/enr"
+	"go-vinu/p2p/nat"
+	"go-vinu/p2p/netutil"
 )
 
 const (

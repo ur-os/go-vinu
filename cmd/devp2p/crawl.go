@@ -19,8 +19,8 @@ package main
 import (
 	"time"
 
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/log"
+	"go-vinu/p2p/enode"
 )
 
 type crawler struct {

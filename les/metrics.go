@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/ur-os/go-vinu/metrics"
-	"github.com/ur-os/go-vinu/p2p"
+	"go-vinu/metrics"
+	"go-vinu/p2p"
 )
 
 var (

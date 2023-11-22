@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

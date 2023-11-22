@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

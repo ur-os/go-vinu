@@ -27,13 +27,13 @@ import (
 	"sync"
 
 	"github.com/prometheus/tsdb/fileutil"
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/accounts"
+	"go-vinu/core/rawdb"
+	"go-vinu/ethdb"
+	"go-vinu/event"
+	"go-vinu/log"
+	"go-vinu/p2p"
+	"go-vinu/rpc"
 )
 
 // Node is a container on which services can be registered.

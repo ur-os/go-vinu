@@ -19,10 +19,10 @@ package ethtest
 import (
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/eth/protocols/eth"
-	"github.com/ur-os/go-vinu/internal/utesting"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/common"
+	"go-vinu/eth/protocols/eth"
+	"go-vinu/internal/utesting"
+	"go-vinu/p2p/enode"
 )
 
 // Suite represents a structure used to test a node's conformance

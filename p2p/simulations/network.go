@@ -27,11 +27,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/simulations/adapters"
+	"go-vinu/event"
+	"go-vinu/log"
+	"go-vinu/p2p"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

@@ -25,17 +25,17 @@ import (
 	"time"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/ethdb/memorydb"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/metrics"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/common/math"
+	"go-vinu/core/rawdb"
+	"go-vinu/crypto"
+	"go-vinu/ethdb"
+	"go-vinu/ethdb/memorydb"
+	"go-vinu/log"
+	"go-vinu/metrics"
+	"go-vinu/rlp"
+	"go-vinu/trie"
 )
 
 var (

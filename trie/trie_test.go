@@ -31,12 +31,12 @@ import (
 	"testing/quick"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/ethdb/leveldb"
-	"github.com/ur-os/go-vinu/ethdb/memorydb"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/crypto"
+	"go-vinu/ethdb"
+	"go-vinu/ethdb/leveldb"
+	"go-vinu/ethdb/memorydb"
+	"go-vinu/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

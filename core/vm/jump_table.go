@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/params"
 )
 
 type (

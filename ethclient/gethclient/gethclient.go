@@ -23,12 +23,12 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/ur-os/go-vinu"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/core/types"
+	"go-vinu/p2p"
+	"go-vinu/rpc"
 )
 
 // Client is a wrapper around rpc.Client that implements geth-specific functionality.

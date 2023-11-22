@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/common"
+	"go-vinu/common/mclock"
+	"go-vinu/core"
+	"go-vinu/core/types"
 )
 
 var (

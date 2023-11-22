@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/internal/utesting"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
+	"go-vinu/internal/utesting"
+	"go-vinu/params"
 )
 
 // var faucetAddr = common.HexToAddress("0x71562b71999873DB5b286dF957af199Ec94617F7")

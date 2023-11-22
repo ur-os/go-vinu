@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 func (g *G2) one() *PointG2 {

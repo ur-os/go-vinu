@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/crypto"
+	"go-vinu/rlp"
 )
 
 // EIP-8 test vectors.

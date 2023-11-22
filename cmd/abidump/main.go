@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ur-os/go-vinu/signer/core/apitypes"
-	"github.com/ur-os/go-vinu/signer/fourbyte"
+	"go-vinu/signer/core/apitypes"
+	"go-vinu/signer/fourbyte"
 )
 
 func init() {

@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/common"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/params"
+	"go-vinu/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

@@ -26,9 +26,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/core/types"
 )
 
 // prepare converts an ethash cache or dataset from a byte stream into the internal

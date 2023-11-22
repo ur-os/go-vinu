@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/rlp"
 )
 
 // Entry is implemented by known node record entry types.

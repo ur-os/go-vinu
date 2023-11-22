@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"github.com/karalabe/usb"
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/accounts"
+	"go-vinu/event"
+	"go-vinu/log"
 )
 
 // LedgerScheme is the protocol scheme prefixing account and wallet URLs.

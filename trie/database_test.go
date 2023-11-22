@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/ethdb/memorydb"
+	"go-vinu/common"
+	"go-vinu/ethdb/memorydb"
 )
 
 // Tests that the trie database returns a missing trie node error if attempting

@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/vm/runtime"
+	"go-vinu/common"
+	"go-vinu/core/vm/runtime"
 )
 
 func ExampleExecute() {

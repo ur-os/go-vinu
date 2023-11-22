@@ -29,10 +29,10 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/filter"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/util"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/metrics"
+	"go-vinu/common"
+	"go-vinu/ethdb"
+	"go-vinu/log"
+	"go-vinu/metrics"
 )
 
 const (

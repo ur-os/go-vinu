@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ur-os/go-vinu/accounts/abi"
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/accounts/abi"
+	"go-vinu/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

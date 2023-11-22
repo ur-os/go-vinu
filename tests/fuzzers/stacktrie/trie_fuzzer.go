@@ -25,9 +25,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/ethdb"
+	"go-vinu/trie"
 	"golang.org/x/crypto/sha3"
 )
 

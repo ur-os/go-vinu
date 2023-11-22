@@ -24,17 +24,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/accounts/abi"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/consensus"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/asm"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/eth/tracers"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/accounts/abi"
+	"go-vinu/common"
+	"go-vinu/consensus"
+	"go-vinu/core"
+	"go-vinu/core/asm"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/core/vm"
+	"go-vinu/eth/tracers"
+	"go-vinu/params"
 )
 
 func TestDefaults(t *testing.T) {
@@ -622,7 +622,7 @@ func TestEip2929Cases(t *testing.T) {
 
 // TestColdAccountAccessCost test that the cold account access cost is reported
 // correctly
-// see: https://github.com/ur-os/go-vinu/issues/22649
+// see: https://go-vinu/issues/22649
 func TestColdAccountAccessCost(t *testing.T) {
 	for i, tc := range []struct {
 		code []byte

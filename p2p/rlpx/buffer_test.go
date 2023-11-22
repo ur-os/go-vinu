@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/ur-os/go-vinu/common/hexutil"
+	"go-vinu/common/hexutil"
 )
 
 func TestReadBufferReset(t *testing.T) {

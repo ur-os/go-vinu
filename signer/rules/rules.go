@@ -23,11 +23,11 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/ur-os/go-vinu/internal/ethapi"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/signer/core"
-	"github.com/ur-os/go-vinu/signer/rules/deps"
-	"github.com/ur-os/go-vinu/signer/storage"
+	"go-vinu/internal/ethapi"
+	"go-vinu/log"
+	"go-vinu/signer/core"
+	"go-vinu/signer/rules/deps"
+	"go-vinu/signer/storage"
 )
 
 var (

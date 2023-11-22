@@ -25,10 +25,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/common/math"
+	"go-vinu/crypto"
+	"go-vinu/rlp"
 )
 
 var (

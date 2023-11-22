@@ -25,13 +25,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ur-os/go-vinu/accounts/abi"
-	"github.com/ur-os/go-vinu/accounts/abi/bind"
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/common/compiler"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/internal/flags"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/accounts/abi"
+	"go-vinu/accounts/abi/bind"
+	"go-vinu/cmd/utils"
+	"go-vinu/common/compiler"
+	"go-vinu/crypto"
+	"go-vinu/internal/flags"
+	"go-vinu/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

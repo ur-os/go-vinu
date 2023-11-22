@@ -19,7 +19,7 @@ package miner
 import (
 	"testing"
 
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

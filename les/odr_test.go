@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/light"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/common/math"
+	"go-vinu/core"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/core/vm"
+	"go-vinu/ethdb"
+	"go-vinu/light"
+	"go-vinu/params"
+	"go-vinu/rlp"
 )
 
 type odrTestFn func(ctx context.Context, db ethdb.Database, config *params.ChainConfig, bc *core.BlockChain, lc *light.LightChain, bhash common.Hash) []byte

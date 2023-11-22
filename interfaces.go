@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/common"
+	"go-vinu/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

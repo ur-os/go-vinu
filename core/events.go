@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/common"
+	"go-vinu/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

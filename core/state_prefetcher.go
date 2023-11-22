@@ -19,11 +19,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/ur-os/go-vinu/consensus"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/consensus"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/core/vm"
+	"go-vinu/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

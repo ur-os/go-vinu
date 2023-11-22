@@ -44,12 +44,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/simulations"
-	"github.com/ur-os/go-vinu/p2p/simulations/adapters"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/crypto"
+	"go-vinu/p2p"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/simulations"
+	"go-vinu/p2p/simulations/adapters"
+	"go-vinu/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

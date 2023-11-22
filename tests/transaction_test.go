@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/params"
 )
 
 func TestTransaction(t *testing.T) {

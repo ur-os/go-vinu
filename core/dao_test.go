@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ur-os/go-vinu/consensus/ethash"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/consensus/ethash"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/vm"
+	"go-vinu/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

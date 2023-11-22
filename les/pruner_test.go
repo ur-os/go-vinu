@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/light"
+	"go-vinu/core"
+	"go-vinu/light"
 )
 
 func TestLightPruner(t *testing.T) {

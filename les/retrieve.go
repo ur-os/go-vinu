@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/light"
+	"go-vinu/light"
 )
 
 var (

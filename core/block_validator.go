@@ -19,11 +19,11 @@ package core
 import (
 	"fmt"
 
-	"github.com/ur-os/go-vinu/consensus"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/consensus"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/params"
+	"go-vinu/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

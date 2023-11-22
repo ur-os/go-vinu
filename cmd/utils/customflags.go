@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/ur-os/go-vinu/common/math"
+	"go-vinu/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

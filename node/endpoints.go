@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/log"
+	"go-vinu/rpc"
 )
 
 // StartHTTPEndpoint starts the HTTP RPC endpoint.

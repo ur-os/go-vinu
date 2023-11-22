@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/crypto"
+	"go-vinu/params"
 )
 
 var ErrInvalidChainId = errors.New("invalid chain id for signer")

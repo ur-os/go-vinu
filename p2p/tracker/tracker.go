@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/metrics"
+	"go-vinu/log"
+	"go-vinu/metrics"
 )
 
 const (

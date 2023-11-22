@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/event"
+	"go-vinu/common"
+	"go-vinu/event"
 )
 
 // Config contains the settings of the global account manager.

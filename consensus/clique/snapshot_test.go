@@ -23,13 +23,13 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/core"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/core/vm"
+	"go-vinu/crypto"
+	"go-vinu/params"
 )
 
 // testerAccountPool is a pool to maintain currently active tester accounts,
@@ -364,7 +364,7 @@ func TestClique(t *testing.T) {
 			failure: errRecentlySigned,
 		}, {
 			// Recent signatures should not reset on checkpoint blocks imported in a new
-			// batch (https://github.com/ur-os/go-vinu/issues/17593). Whilst this
+			// batch (https://go-vinu/issues/17593). Whilst this
 			// seems overly specific and weird, it was a Rinkeby consensus split.
 			epoch:   3,
 			signers: []string{"A", "B", "C"},

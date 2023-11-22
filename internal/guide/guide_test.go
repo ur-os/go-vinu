@@ -30,9 +30,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/accounts/keystore"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/accounts/keystore"
+	"go-vinu/common"
+	"go-vinu/core/types"
 )
 
 // Tests that the account management snippets work correctly.

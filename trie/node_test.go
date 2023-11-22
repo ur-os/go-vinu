@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/rlp"
 )
 
 func newTestFullNode(v []byte) []interface{} {

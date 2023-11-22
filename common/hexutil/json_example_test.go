@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ur-os/go-vinu/common/hexutil"
+	"go-vinu/common/hexutil"
 )
 
 type MyType [5]byte

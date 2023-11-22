@@ -19,9 +19,9 @@ package ethash
 import (
 	"errors"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/core/types"
 )
 
 var errEthashStopped = errors.New("ethash stopped")

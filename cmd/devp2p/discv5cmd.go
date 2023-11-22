@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ur-os/go-vinu/cmd/devp2p/internal/v5test"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/p2p/discover"
+	"go-vinu/cmd/devp2p/internal/v5test"
+	"go-vinu/common"
+	"go-vinu/p2p/discover"
 	"gopkg.in/urfave/cli.v1"
 )
 

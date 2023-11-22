@@ -21,9 +21,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/params"
+	"go-vinu/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

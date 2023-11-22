@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/common"
+	"go-vinu/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

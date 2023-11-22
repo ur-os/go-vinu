@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ur-os/go-vinu/tests/fuzzers/stacktrie"
+	"go-vinu/tests/fuzzers/stacktrie"
 )
 
 func main() {

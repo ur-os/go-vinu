@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/consensus"
-	"github.com/ur-os/go-vinu/consensus/misc"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/consensus"
+	"go-vinu/consensus/misc"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/core/vm"
+	"go-vinu/ethdb"
+	"go-vinu/params"
 )
 
 // BlockGen creates blocks for testing.

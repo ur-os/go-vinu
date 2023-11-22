@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/p2p/enode"
 )
 
 func TestMocker(t *testing.T) {

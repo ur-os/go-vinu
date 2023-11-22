@@ -23,9 +23,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/internal/utesting"
-	"github.com/ur-os/go-vinu/p2p/discover/v4wire"
+	"go-vinu/crypto"
+	"go-vinu/internal/utesting"
+	"go-vinu/p2p/discover/v4wire"
 )
 
 const (

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

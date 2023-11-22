@@ -17,7 +17,7 @@
 package state
 
 import (
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 type accessList struct {

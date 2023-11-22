@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/forkid"
-	"github.com/ur-os/go-vinu/p2p"
+	"go-vinu/common"
+	"go-vinu/core/forkid"
+	"go-vinu/p2p"
 )
 
 const (

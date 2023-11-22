@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

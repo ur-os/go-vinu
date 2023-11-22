@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ur-os/go-vinu/core/vm"
+	"go-vinu/core/vm"
 )
 
 func TestState(t *testing.T) {

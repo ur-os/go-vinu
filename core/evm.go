@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/consensus"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/core/vm"
+	"go-vinu/common"
+	"go-vinu/consensus"
+	"go-vinu/core/types"
+	"go-vinu/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

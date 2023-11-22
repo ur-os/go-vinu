@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/tests"
+	"go-vinu/core/state"
+	"go-vinu/core/vm"
+	"go-vinu/log"
+	"go-vinu/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

@@ -24,8 +24,8 @@ import (
 	"sync"
 
 	"github.com/olekukonko/tablewriter"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/core"
+	"go-vinu/log"
 )
 
 // networkStats verifies the status of network components and generates a protip

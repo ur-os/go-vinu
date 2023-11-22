@@ -35,9 +35,9 @@ import (
 	"time"
 
 	"github.com/golang/snappy"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/crypto/ecies"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/crypto"
+	"go-vinu/crypto/ecies"
+	"go-vinu/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

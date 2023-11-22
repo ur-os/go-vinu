@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/p2p/enode"
 )
 
 // Simulation provides a framework for running actions in a simulated network

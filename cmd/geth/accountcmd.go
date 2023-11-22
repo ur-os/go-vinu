@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/accounts/keystore"
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/accounts"
+	"go-vinu/accounts/keystore"
+	"go-vinu/cmd/utils"
+	"go-vinu/crypto"
+	"go-vinu/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

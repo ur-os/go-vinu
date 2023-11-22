@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/console"
-	"github.com/ur-os/go-vinu/node"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/cmd/utils"
+	"go-vinu/console"
+	"go-vinu/node"
+	"go-vinu/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

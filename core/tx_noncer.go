@@ -19,8 +19,8 @@ package core
 import (
 	"sync"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/state"
+	"go-vinu/common"
+	"go-vinu/core/state"
 )
 
 // txNoncer is a tiny virtual state database to manage the executable nonces of

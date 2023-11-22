@@ -24,14 +24,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/ethdb/memorydb"
-	"github.com/ur-os/go-vinu/les/vflux"
-	vfs "github.com/ur-os/go-vinu/les/vflux/server"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/enr"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common/mclock"
+	"go-vinu/ethdb/memorydb"
+	"go-vinu/les/vflux"
+	vfs "go-vinu/les/vflux/server"
+	"go-vinu/log"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/enr"
+	"go-vinu/rlp"
 )
 
 var (

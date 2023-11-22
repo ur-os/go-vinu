@@ -22,14 +22,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/internal/ethapi"
-	"github.com/ur-os/go-vinu/signer/core"
-	"github.com/ur-os/go-vinu/signer/core/apitypes"
-	"github.com/ur-os/go-vinu/signer/storage"
+	"go-vinu/accounts"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/core/types"
+	"go-vinu/internal/ethapi"
+	"go-vinu/signer/core"
+	"go-vinu/signer/core/apitypes"
+	"go-vinu/signer/storage"
 )
 
 const JS = `

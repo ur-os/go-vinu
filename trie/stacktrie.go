@@ -25,10 +25,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/ethdb"
+	"go-vinu/log"
+	"go-vinu/rlp"
 )
 
 var ErrCommitDisabled = errors.New("no database for committing")

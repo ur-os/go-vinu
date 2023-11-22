@@ -15,7 +15,7 @@
 package secp256k1
 
 import (
-	_ "github.com/ur-os/go-vinu/crypto/secp256k1/libsecp256k1/include"
-	_ "github.com/ur-os/go-vinu/crypto/secp256k1/libsecp256k1/src"
-	_ "github.com/ur-os/go-vinu/crypto/secp256k1/libsecp256k1/src/modules/recovery"
+	_ "go-vinu/crypto/secp256k1/libsecp256k1/include"
+	_ "go-vinu/crypto/secp256k1/libsecp256k1/src"
+	_ "go-vinu/crypto/secp256k1/libsecp256k1/src/modules/recovery"
 )

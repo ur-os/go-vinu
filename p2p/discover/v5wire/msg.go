@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/enr"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common/mclock"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/enr"
+	"go-vinu/rlp"
 )
 
 // Packet is implemented by all message types.

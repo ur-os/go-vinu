@@ -24,12 +24,12 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
+	"go-vinu/rlp"
+	"go-vinu/trie"
 )
 
 func TestDeriveSha(t *testing.T) {

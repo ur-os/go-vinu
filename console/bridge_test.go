@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/dop251/goja"
-	"github.com/ur-os/go-vinu/internal/jsre"
+	"go-vinu/internal/jsre"
 )
 
 // TestUndefinedAsParam ensures that personal functions can receive

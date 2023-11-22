@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/common"
+	"go-vinu/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

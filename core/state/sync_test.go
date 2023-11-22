@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/ethdb/memorydb"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
+	"go-vinu/crypto"
+	"go-vinu/ethdb"
+	"go-vinu/ethdb/memorydb"
+	"go-vinu/rlp"
+	"go-vinu/trie"
 )
 
 // testAccount is the data associated with an account used by the state tests.

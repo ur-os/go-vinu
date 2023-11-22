@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/ethdb"
+	"go-vinu/common"
+	"go-vinu/core"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/ethdb"
 )
 
 // NoOdr is the default context passed to an ODR capable function when the ODR

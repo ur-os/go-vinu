@@ -25,11 +25,11 @@ import (
 	"time"
 
 	"github.com/olekukonko/tablewriter"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/ethdb/leveldb"
-	"github.com/ur-os/go-vinu/ethdb/memorydb"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common"
+	"go-vinu/ethdb"
+	"go-vinu/ethdb/leveldb"
+	"go-vinu/ethdb/memorydb"
+	"go-vinu/log"
 )
 
 // freezerdb is a database wrapper that enabled freezer data retrievals.

@@ -37,25 +37,25 @@ import (
 
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/accounts/keystore"
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/internal/ethapi"
-	"github.com/ur-os/go-vinu/internal/flags"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/node"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/rpc"
-	"github.com/ur-os/go-vinu/signer/core"
-	"github.com/ur-os/go-vinu/signer/core/apitypes"
-	"github.com/ur-os/go-vinu/signer/fourbyte"
-	"github.com/ur-os/go-vinu/signer/rules"
-	"github.com/ur-os/go-vinu/signer/storage"
+	"go-vinu/accounts"
+	"go-vinu/accounts/keystore"
+	"go-vinu/cmd/utils"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
+	"go-vinu/internal/ethapi"
+	"go-vinu/internal/flags"
+	"go-vinu/log"
+	"go-vinu/node"
+	"go-vinu/params"
+	"go-vinu/rlp"
+	"go-vinu/rpc"
+	"go-vinu/signer/core"
+	"go-vinu/signer/core/apitypes"
+	"go-vinu/signer/fourbyte"
+	"go-vinu/signer/rules"
+	"go-vinu/signer/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -795,7 +795,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/ur-os/go-vinu/issues/20123
+	// https://go-vinu/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

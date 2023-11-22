@@ -24,11 +24,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/p2p/discover/v5wire"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/enr"
+	"go-vinu/common/mclock"
+	"go-vinu/crypto"
+	"go-vinu/p2p/discover/v5wire"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/enr"
 )
 
 // readError represents an error during packet reading.

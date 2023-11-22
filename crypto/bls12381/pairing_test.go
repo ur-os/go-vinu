@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 func TestPairingExpected(t *testing.T) {

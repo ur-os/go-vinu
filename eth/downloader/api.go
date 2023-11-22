@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ur-os/go-vinu"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu"
+	"go-vinu/event"
+	"go-vinu/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

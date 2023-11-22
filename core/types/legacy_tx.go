@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 // LegacyTx is the transaction data of regular Ethereum transactions.

@@ -21,17 +21,17 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/consensus/ethash"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/eth/downloader"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/consensus/ethash"
+	"go-vinu/core"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/core/vm"
+	"go-vinu/crypto"
+	"go-vinu/eth/downloader"
+	"go-vinu/ethdb"
+	"go-vinu/event"
+	"go-vinu/params"
 )
 
 var (

@@ -19,7 +19,7 @@ package bitutil
 import (
 	"bytes"
 
-	"github.com/ur-os/go-vinu/common/bitutil"
+	"go-vinu/common/bitutil"
 )
 
 // Fuzz implements a go-fuzz fuzzer method to test various encoding method

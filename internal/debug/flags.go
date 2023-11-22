@@ -27,9 +27,9 @@ import (
 	"github.com/fjl/memsize/memsizeui"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/metrics"
-	"github.com/ur-os/go-vinu/metrics/exp"
+	"go-vinu/log"
+	"go-vinu/metrics"
+	"go-vinu/metrics/exp"
 	"gopkg.in/urfave/cli.v1"
 )
 

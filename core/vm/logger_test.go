@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/core/state"
+	"go-vinu/params"
 )
 
 type dummyContractRef struct {

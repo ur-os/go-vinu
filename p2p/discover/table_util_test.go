@@ -27,10 +27,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/enr"
+	"go-vinu/crypto"
+	"go-vinu/log"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/enr"
 )
 
 var nullNode *enode.Node

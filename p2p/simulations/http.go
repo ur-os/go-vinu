@@ -31,11 +31,11 @@ import (
 
 	"github.com/gorilla/websocket"
 	"github.com/julienschmidt/httprouter"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/simulations/adapters"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/event"
+	"go-vinu/p2p"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/simulations/adapters"
+	"go-vinu/rpc"
 )
 
 // DefaultClient is the default simulation API client which expects the API

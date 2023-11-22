@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 //go:generate gencodec -type AccessTuple -out gen_access_tuple.go

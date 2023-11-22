@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/ur-os/go-vinu/cmd/devp2p/internal/v4test"
-	"github.com/ur-os/go-vinu/internal/utesting"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/cmd/devp2p/internal/v4test"
+	"go-vinu/internal/utesting"
+	"go-vinu/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

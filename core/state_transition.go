@@ -21,12 +21,12 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	cmath "github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	cmath "go-vinu/common/math"
+	"go-vinu/core/types"
+	"go-vinu/core/vm"
+	"go-vinu/crypto"
+	"go-vinu/params"
 )
 
 var emptyCodeHash = crypto.Keccak256Hash(nil)

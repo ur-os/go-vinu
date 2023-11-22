@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/eth/downloader"
-	"github.com/ur-os/go-vinu/eth/protocols/eth"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/eth/downloader"
+	"go-vinu/eth/protocols/eth"
+	"go-vinu/p2p"
+	"go-vinu/p2p/enode"
 )
 
 // Tests that fast sync is disabled after a successful sync cycle.

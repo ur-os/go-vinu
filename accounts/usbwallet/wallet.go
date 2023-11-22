@@ -26,12 +26,12 @@ import (
 	"time"
 
 	"github.com/karalabe/usb"
-	"github.com/ur-os/go-vinu"
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu"
+	"go-vinu/accounts"
+	"go-vinu/common"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
+	"go-vinu/log"
 )
 
 // Maximum time between wallet health checks to detect USB unplugs.

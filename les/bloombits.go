@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/ur-os/go-vinu/common/bitutil"
-	"github.com/ur-os/go-vinu/light"
+	"go-vinu/common/bitutil"
+	"go-vinu/light"
 )
 
 const (

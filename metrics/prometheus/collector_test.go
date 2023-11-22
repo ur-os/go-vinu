@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/metrics"
+	"go-vinu/metrics"
 )
 
 func TestMain(m *testing.M) {

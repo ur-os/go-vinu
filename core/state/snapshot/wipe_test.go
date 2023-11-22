@@ -20,9 +20,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/ethdb/memorydb"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
+	"go-vinu/ethdb/memorydb"
 )
 
 // Tests that given a database with random data content, all parts of a snapshot

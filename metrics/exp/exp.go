@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/metrics"
-	"github.com/ur-os/go-vinu/metrics/prometheus"
+	"go-vinu/log"
+	"go-vinu/metrics"
+	"go-vinu/metrics/prometheus"
 )
 
 type exp struct {

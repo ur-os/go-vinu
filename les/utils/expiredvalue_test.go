@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/ur-os/go-vinu/common/mclock"
+	"go-vinu/common/mclock"
 )
 
 func TestValueExpiration(t *testing.T) {

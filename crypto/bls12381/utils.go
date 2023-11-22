@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 func bigFromHex(hex string) *big.Int {

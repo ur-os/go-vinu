@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/accounts/abi/bind"
-	"github.com/ur-os/go-vinu/accounts/abi/bind/backends"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/contracts/checkpointoracle/contract"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/accounts/abi/bind"
+	"go-vinu/accounts/abi/bind/backends"
+	"go-vinu/common"
+	"go-vinu/contracts/checkpointoracle/contract"
+	"go-vinu/core"
+	"go-vinu/crypto"
+	"go-vinu/params"
 )
 
 var (

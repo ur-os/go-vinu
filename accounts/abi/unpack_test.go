@@ -27,7 +27,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 // TestUnpack tests the general pack/unpack tests in packing_test.go

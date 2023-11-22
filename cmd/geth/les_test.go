@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/p2p"
+	"go-vinu/rpc"
 )
 
 type gethrpc struct {

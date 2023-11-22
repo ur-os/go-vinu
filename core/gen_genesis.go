@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/common/math"
+	"go-vinu/params"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

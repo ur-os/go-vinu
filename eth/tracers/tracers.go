@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/ur-os/go-vinu/eth/tracers/internal/tracers"
+	"go-vinu/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

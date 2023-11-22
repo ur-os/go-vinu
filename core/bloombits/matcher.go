@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/bitutil"
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/common/bitutil"
+	"go-vinu/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

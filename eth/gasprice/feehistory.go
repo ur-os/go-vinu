@@ -26,11 +26,11 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/consensus/misc"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/common"
+	"go-vinu/consensus/misc"
+	"go-vinu/core/types"
+	"go-vinu/log"
+	"go-vinu/rpc"
 )
 
 var (

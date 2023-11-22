@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/core/types"
+	"go-vinu/rlp"
 )
 
 func decodeEncode(input []byte, val interface{}, i int) {

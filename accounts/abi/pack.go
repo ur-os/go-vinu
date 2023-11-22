@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/math"
+	"go-vinu/common"
+	"go-vinu/common/math"
 )
 
 // packBytesSlice packs the given bytes as [L, V] as the canonical representation

@@ -26,10 +26,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/enr"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/crypto"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/enr"
+	"go-vinu/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

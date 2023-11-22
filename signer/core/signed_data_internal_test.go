@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common/hexutil"
+	"go-vinu/common/hexutil"
 )
 
 func TestBytesPadding(t *testing.T) {

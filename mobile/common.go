@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

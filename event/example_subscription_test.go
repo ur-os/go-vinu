@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/ur-os/go-vinu/event"
+	"go-vinu/event"
 )
 
 func ExampleNewSubscription() {

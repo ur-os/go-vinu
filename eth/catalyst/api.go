@@ -23,17 +23,17 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/consensus/misc"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/eth"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/node"
-	chainParams "github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/rpc"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/consensus/misc"
+	"go-vinu/core"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/eth"
+	"go-vinu/log"
+	"go-vinu/node"
+	chainParams "go-vinu/params"
+	"go-vinu/rpc"
+	"go-vinu/trie"
 )
 
 // Register adds catalyst APIs to the node.

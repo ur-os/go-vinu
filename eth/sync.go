@@ -22,13 +22,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/eth/downloader"
-	"github.com/ur-os/go-vinu/eth/protocols/eth"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/eth/downloader"
+	"go-vinu/eth/protocols/eth"
+	"go-vinu/log"
+	"go-vinu/p2p/enode"
 )
 
 const (

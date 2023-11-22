@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/eth/protocols/eth"
-	"github.com/ur-os/go-vinu/eth/protocols/snap"
+	"go-vinu/eth/protocols/eth"
+	"go-vinu/eth/protocols/snap"
 )
 
 // ethPeerInfo represents a short summary of the `eth` sub-protocol metadata known

@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/metrics"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
+	"go-vinu/ethdb"
+	"go-vinu/log"
+	"go-vinu/metrics"
 )
 
 // wipeSnapshot starts a goroutine to iterate over the entire key-value database

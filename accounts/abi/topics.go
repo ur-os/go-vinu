@@ -23,8 +23,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/common"
+	"go-vinu/crypto"
 )
 
 // MakeTopics converts a filter query argument list into a filter topic set.

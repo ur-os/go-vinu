@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ur-os/go-vinu/cmd/evm/internal/t8ntool"
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/internal/flags"
+	"go-vinu/cmd/evm/internal/t8ntool"
+	"go-vinu/cmd/utils"
+	"go-vinu/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

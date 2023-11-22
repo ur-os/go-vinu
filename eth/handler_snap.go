@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/ur-os/go-vinu/eth/protocols/snap"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/eth/protocols/snap"
+	"go-vinu/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

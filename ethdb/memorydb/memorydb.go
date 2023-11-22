@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/ethdb"
+	"go-vinu/common"
+	"go-vinu/ethdb"
 )
 
 var (

@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/common/math"
+	"go-vinu/core/types"
+	"go-vinu/params"
 )
 
 // VerifyEip1559Header verifies some header attributes which were changed in EIP-1559,

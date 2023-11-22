@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/common/mclock"
-	vfs "github.com/ur-os/go-vinu/les/vflux/server"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/common/hexutil"
+	"go-vinu/common/mclock"
+	vfs "go-vinu/les/vflux/server"
+	"go-vinu/p2p/enode"
 )
 
 var (

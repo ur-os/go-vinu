@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/core/vm"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

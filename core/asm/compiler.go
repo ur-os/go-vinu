@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/core/vm"
+	"go-vinu/common/math"
+	"go-vinu/core/vm"
 )
 
 // Compiler contains information about the parsed source

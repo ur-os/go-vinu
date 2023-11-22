@@ -21,8 +21,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/common"
+	"go-vinu/crypto"
 )
 
 func TestBloom(t *testing.T) {

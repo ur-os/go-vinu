@@ -27,10 +27,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/core/types"
+	"go-vinu/params"
+	"go-vinu/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

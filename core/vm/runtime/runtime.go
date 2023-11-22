@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/state"
+	"go-vinu/core/vm"
+	"go-vinu/crypto"
+	"go-vinu/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

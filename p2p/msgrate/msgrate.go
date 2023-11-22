@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // measurementImpact is the impact a single measurement has on a peer's final

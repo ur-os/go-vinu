@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 var (

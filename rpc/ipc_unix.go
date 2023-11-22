@@ -26,7 +26,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // ipcListen will create a Unix socket on the given endpoint.

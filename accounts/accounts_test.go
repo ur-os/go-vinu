@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common/hexutil"
+	"go-vinu/common/hexutil"
 )
 
 func TestTextHash(t *testing.T) {

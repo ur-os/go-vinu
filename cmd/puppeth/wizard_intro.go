@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

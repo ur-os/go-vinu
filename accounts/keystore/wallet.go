@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/ur-os/go-vinu"
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu"
+	"go-vinu/accounts"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

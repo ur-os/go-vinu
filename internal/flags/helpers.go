@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

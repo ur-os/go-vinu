@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/eth/ethconfig"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/les/flowcontrol"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/metrics"
+	"go-vinu/common/mclock"
+	"go-vinu/eth/ethconfig"
+	"go-vinu/ethdb"
+	"go-vinu/les/flowcontrol"
+	"go-vinu/log"
+	"go-vinu/metrics"
 )
 
 const makeCostStats = false // make request cost statistics during operation

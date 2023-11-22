@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/influxdata/influxdb/client"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/metrics"
+	"go-vinu/log"
+	"go-vinu/metrics"
 )
 
 type reporter struct {

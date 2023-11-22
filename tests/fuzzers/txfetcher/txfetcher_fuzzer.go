@@ -23,10 +23,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/eth/fetcher"
+	"go-vinu/common"
+	"go-vinu/common/mclock"
+	"go-vinu/core/types"
+	"go-vinu/eth/fetcher"
 )
 
 var (

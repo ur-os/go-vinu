@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/internal/utesting"
-	"github.com/ur-os/go-vinu/p2p/discover/v5wire"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/netutil"
+	"go-vinu/internal/utesting"
+	"go-vinu/p2p/discover/v5wire"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/netutil"
 )
 
 // Suite is the discv5 test suite.

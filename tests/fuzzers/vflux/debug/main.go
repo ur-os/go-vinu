@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/tests/fuzzers/vflux"
+	"go-vinu/log"
+	"go-vinu/tests/fuzzers/vflux"
 )
 
 func main() {

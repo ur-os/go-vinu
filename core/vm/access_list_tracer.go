@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/common"
+	"go-vinu/core/types"
 )
 
 // accessList is an accumulator for the set of accounts and storage slots an EVM

@@ -30,10 +30,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/consensus"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/consensus"
+	"go-vinu/core/types"
 )
 
 const (

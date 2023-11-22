@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/eth"
-	"github.com/ur-os/go-vinu/eth/ethconfig"
-	"github.com/ur-os/go-vinu/internal/utesting"
-	"github.com/ur-os/go-vinu/node"
-	"github.com/ur-os/go-vinu/p2p"
+	"go-vinu/eth"
+	"go-vinu/eth/ethconfig"
+	"go-vinu/internal/utesting"
+	"go-vinu/node"
+	"go-vinu/p2p"
 )
 
 var (

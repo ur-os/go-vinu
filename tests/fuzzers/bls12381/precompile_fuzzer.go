@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/vm"
+	"go-vinu/common"
+	"go-vinu/core/vm"
 )
 
 const (

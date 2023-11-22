@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/accounts/abi/bind"
-	"github.com/ur-os/go-vinu/accounts/external"
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/contracts/checkpointoracle"
-	"github.com/ur-os/go-vinu/ethclient"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/accounts"
+	"go-vinu/accounts/abi/bind"
+	"go-vinu/accounts/external"
+	"go-vinu/cmd/utils"
+	"go-vinu/common"
+	"go-vinu/contracts/checkpointoracle"
+	"go-vinu/ethclient"
+	"go-vinu/params"
+	"go-vinu/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

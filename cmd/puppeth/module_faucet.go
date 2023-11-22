@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common"
+	"go-vinu/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

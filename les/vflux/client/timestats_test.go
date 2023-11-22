@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/les/utils"
+	"go-vinu/les/utils"
 )
 
 func TestTransition(t *testing.T) {

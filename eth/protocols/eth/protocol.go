@@ -22,10 +22,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/forkid"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/core/forkid"
+	"go-vinu/core/types"
+	"go-vinu/rlp"
 )
 
 // Constants to match up protocol versions and messages

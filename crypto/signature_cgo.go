@@ -24,8 +24,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/crypto/secp256k1"
+	"go-vinu/common/math"
+	"go-vinu/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

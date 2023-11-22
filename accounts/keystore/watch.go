@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/rjeczalik/notify"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 type watcher struct {

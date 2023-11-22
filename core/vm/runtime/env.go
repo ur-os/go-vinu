@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/vm"
+	"go-vinu/core"
+	"go-vinu/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

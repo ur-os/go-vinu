@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/consensus/ethash"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/consensus/ethash"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/core/vm"
+	"go-vinu/params"
 )
 
 // Tests a recovery for a short canonical chain where a recent block was already

@@ -19,7 +19,7 @@ package rlp
 import (
 	"testing"
 
-	"github.com/ur-os/go-vinu/common/hexutil"
+	"go-vinu/common/hexutil"
 )
 
 // TestIterator tests some basic things about the ListIterator. A more

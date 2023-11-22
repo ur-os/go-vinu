@@ -22,9 +22,9 @@ import (
 	"os"
 
 	bloomfilter "github.com/holiman/bloomfilter/v2"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
+	"go-vinu/log"
 )
 
 // stateBloomHasher is a wrapper around a byte blob to satisfy the interface API

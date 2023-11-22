@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

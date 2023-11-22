@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ur-os/go-vinu/core/forkid"
-	"github.com/ur-os/go-vinu/p2p/enr"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/core/forkid"
+	"go-vinu/p2p/enr"
+	"go-vinu/params"
+	"go-vinu/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

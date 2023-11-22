@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // nginxDockerfile is theis the Dockerfile required to build an nginx reverse-

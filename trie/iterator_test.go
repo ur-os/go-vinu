@@ -23,10 +23,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/ethdb/memorydb"
+	"go-vinu/common"
+	"go-vinu/crypto"
+	"go-vinu/ethdb"
+	"go-vinu/ethdb/memorydb"
 )
 
 func TestIterator(t *testing.T) {

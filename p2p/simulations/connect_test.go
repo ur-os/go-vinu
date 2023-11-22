@@ -19,9 +19,9 @@ package simulations
 import (
 	"testing"
 
-	"github.com/ur-os/go-vinu/node"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/simulations/adapters"
+	"go-vinu/node"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/simulations/adapters"
 )
 
 func newTestNetwork(t *testing.T, nodeCount int) (*Network, []enode.ID) {

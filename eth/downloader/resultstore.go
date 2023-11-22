@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/core/types"
 )
 
 // resultStore implements a structure for maintaining fetchResults, tracking their

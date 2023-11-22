@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/trie"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/log"
+	"go-vinu/rlp"
+	"go-vinu/trie"
 )
 
 // DumpConfig is a set of options to control what portions of the statewill be

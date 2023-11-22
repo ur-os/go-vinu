@@ -28,14 +28,14 @@ import (
 	"gopkg.in/urfave/cli.v1"
 
 	"github.com/naoina/toml"
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/eth/catalyst"
-	"github.com/ur-os/go-vinu/eth/ethconfig"
-	"github.com/ur-os/go-vinu/internal/ethapi"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/metrics"
-	"github.com/ur-os/go-vinu/node"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/cmd/utils"
+	"go-vinu/eth/catalyst"
+	"go-vinu/eth/ethconfig"
+	"go-vinu/internal/ethapi"
+	"go-vinu/log"
+	"go-vinu/metrics"
+	"go-vinu/node"
+	"go-vinu/params"
 )
 
 var (

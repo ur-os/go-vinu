@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 // hashes is a helper to implement sort.Interface.

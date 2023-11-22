@@ -20,7 +20,7 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/core/types"
 )
 
 const (

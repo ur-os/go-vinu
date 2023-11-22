@@ -20,8 +20,8 @@
 package node
 
 import (
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/p2p"
+	"go-vinu/rpc"
 )
 
 // NoopLifecycle is a trivial implementation of the Service interface.

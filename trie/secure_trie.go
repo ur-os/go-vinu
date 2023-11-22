@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common"
+	"go-vinu/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

@@ -19,7 +19,7 @@ package netutil
 import (
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
+	"go-vinu/common/mclock"
 )
 
 // IPTracker predicts the external endpoint, i.e. IP address and port, of the local host

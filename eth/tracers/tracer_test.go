@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/core/state"
+	"go-vinu/core/vm"
+	"go-vinu/params"
 )
 
 type account struct{}

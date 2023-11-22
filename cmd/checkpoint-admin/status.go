@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/cmd/utils"
+	"go-vinu/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -20,10 +20,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/forkid"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/common"
+	"go-vinu/core/forkid"
+	"go-vinu/p2p"
+	"go-vinu/p2p/enode"
 )
 
 // Tests that handshake failures are detected and reported correctly.

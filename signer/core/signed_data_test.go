@@ -26,12 +26,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ur-os/go-vinu/accounts/keystore"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/signer/core"
+	"go-vinu/accounts/keystore"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/common/math"
+	"go-vinu/crypto"
+	"go-vinu/signer/core"
 )
 
 var typesStandard = core.Types{

@@ -19,9 +19,9 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common"
+	"go-vinu/ethdb"
+	"go-vinu/log"
 )
 
 // ReadSnapshotDisabled retrieves if the snapshot maintenance is disabled.

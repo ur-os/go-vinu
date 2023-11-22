@@ -28,9 +28,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/enr"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/enr"
+	"go-vinu/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

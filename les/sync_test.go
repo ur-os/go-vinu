@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/accounts/abi/bind"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/light"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/accounts/abi/bind"
+	"go-vinu/core"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
+	"go-vinu/light"
+	"go-vinu/params"
 )
 
 // Test light syncing which will download all headers from genesis.
@@ -196,7 +196,7 @@ func testMissOracleBackend(t *testing.T, hasCheckpoint bool, protocol int) {
 	// that user wants to unlock something which blocks the oracle backend
 	// initialisation. But at the same time syncing starts.
 	//
-	// See https://github.com/ur-os/go-vinu/issues/20097 for more detail.
+	// See https://go-vinu/issues/20097 for more detail.
 	//
 	// In this case, client should run light sync or legacy checkpoint sync
 	// if hardcoded checkpoint is configured.

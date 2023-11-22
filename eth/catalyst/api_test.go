@@ -20,15 +20,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ur-os/go-vinu/consensus/ethash"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/eth"
-	"github.com/ur-os/go-vinu/eth/ethconfig"
-	"github.com/ur-os/go-vinu/node"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/consensus/ethash"
+	"go-vinu/core"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
+	"go-vinu/eth"
+	"go-vinu/eth/ethconfig"
+	"go-vinu/node"
+	"go-vinu/params"
 )
 
 var (

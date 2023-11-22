@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 // weightedIterator is a iterator with an assigned weight. It is used to prioritise

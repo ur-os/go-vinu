@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

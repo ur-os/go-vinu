@@ -20,10 +20,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/crypto"
+	"go-vinu/ethdb"
+	"go-vinu/rlp"
 )
 
 // NodeSet stores a set of trie nodes. It implements trie.Database and can also

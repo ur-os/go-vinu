@@ -21,12 +21,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/prque"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/common/prque"
+	"go-vinu/core/types"
+	"go-vinu/ethdb"
+	"go-vinu/log"
+	"go-vinu/rlp"
 )
 
 // InitDatabaseFromFreezer reinitializes an empty database from a previous batch

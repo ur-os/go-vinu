@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/forkid"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/core"
+	"go-vinu/core/forkid"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/p2p"
+	"go-vinu/p2p/enode"
+	"go-vinu/params"
 )
 
 type testServerPeerSub struct {

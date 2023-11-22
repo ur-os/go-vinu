@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/ur-os/go-vinu/cmd/evm/internal/compiler"
+	"go-vinu/cmd/evm/internal/compiler"
 
 	"gopkg.in/urfave/cli.v1"
 )

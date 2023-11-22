@@ -33,8 +33,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/core"
+	"go-vinu/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

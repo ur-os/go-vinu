@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/netutil"
+	"go-vinu/log"
+	"go-vinu/p2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

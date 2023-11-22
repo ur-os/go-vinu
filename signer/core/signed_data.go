@@ -30,15 +30,15 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/consensus/clique"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/signer/core/apitypes"
+	"go-vinu/accounts"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/common/math"
+	"go-vinu/consensus/clique"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
+	"go-vinu/rlp"
+	"go-vinu/signer/core/apitypes"
 )
 
 type SigFormat struct {
@@ -652,7 +652,7 @@ func (api *SignerAPI) EcRecover(ctx context.Context, data hexutil.Bytes, sig hex
 	// Note, the signature must conform to the secp256k1 curve R, S and V values, where
 	// the V value must be be 27 or 28 for legacy reasons.
 	//
-	// https://github.com/ur-os/go-vinu/wiki/Management-APIs#personal_ecRecover
+	// https://go-vinu/wiki/Management-APIs#personal_ecRecover
 	if len(sig) != 65 {
 		return common.Address{}, fmt.Errorf("signature must be 65 bytes long")
 	}

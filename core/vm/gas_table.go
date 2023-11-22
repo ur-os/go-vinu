@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/common/math"
+	"go-vinu/params"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

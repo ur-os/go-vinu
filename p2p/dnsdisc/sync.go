@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/common/mclock"
+	"go-vinu/p2p/enode"
 )
 
 // This is the number of consecutive leaf requests that may fail before

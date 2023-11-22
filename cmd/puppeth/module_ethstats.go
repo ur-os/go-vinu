@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

@@ -17,9 +17,9 @@
 package snap
 
 import (
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p"
+	"go-vinu/common"
+	"go-vinu/log"
+	"go-vinu/p2p"
 )
 
 // Peer is a collection of relevant information we have about a `snap` peer.

@@ -19,7 +19,7 @@ package keystore
 import (
 	"os"
 
-	"github.com/ur-os/go-vinu/accounts/keystore"
+	"go-vinu/accounts/keystore"
 )
 
 func Fuzz(input []byte) int {

@@ -22,13 +22,13 @@ import (
 	"time"
 
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/les/utils"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/common/mclock"
+	"go-vinu/ethdb"
+	"go-vinu/les/utils"
+	"go-vinu/log"
+	"go-vinu/p2p/enode"
+	"go-vinu/rlp"
 )
 
 const (

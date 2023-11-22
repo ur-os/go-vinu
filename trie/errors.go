@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 // MissingNodeError is returned by the trie functions (TryGet, TryUpdate, TryDelete)

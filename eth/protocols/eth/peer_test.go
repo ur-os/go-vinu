@@ -22,8 +22,8 @@ package eth
 import (
 	"crypto/rand"
 
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/p2p"
+	"go-vinu/p2p/enode"
 )
 
 // testPeer is a simulated peer to allow testing direct network calls.

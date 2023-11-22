@@ -23,9 +23,9 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/crypto"
+	"go-vinu/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

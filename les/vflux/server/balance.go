@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/les/utils"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/nodestate"
+	"go-vinu/common/mclock"
+	"go-vinu/les/utils"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/nodestate"
 )
 
 var errBalanceOverflow = errors.New("balance overflow")

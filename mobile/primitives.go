@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 // Strings represents s slice of strs.

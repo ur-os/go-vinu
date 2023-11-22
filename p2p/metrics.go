@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/ur-os/go-vinu/metrics"
+	"go-vinu/metrics"
 )
 
 const (

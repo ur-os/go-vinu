@@ -42,23 +42,23 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/accounts/keystore"
-	"github.com/ur-os/go-vinu/cmd/utils"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/eth/downloader"
-	"github.com/ur-os/go-vinu/eth/ethconfig"
-	"github.com/ur-os/go-vinu/ethclient"
-	"github.com/ur-os/go-vinu/ethstats"
-	"github.com/ur-os/go-vinu/les"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/node"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/nat"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/accounts"
+	"go-vinu/accounts/keystore"
+	"go-vinu/cmd/utils"
+	"go-vinu/common"
+	"go-vinu/core"
+	"go-vinu/core/types"
+	"go-vinu/eth/downloader"
+	"go-vinu/eth/ethconfig"
+	"go-vinu/ethclient"
+	"go-vinu/ethstats"
+	"go-vinu/les"
+	"go-vinu/log"
+	"go-vinu/node"
+	"go-vinu/p2p"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/nat"
+	"go-vinu/params"
 )
 
 var (
@@ -469,7 +469,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/ur-os/go-vinu/issues")
+			err = errors.New("Something funky happened, please open an issue at https://go-vinu/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

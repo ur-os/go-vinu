@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/common/prque"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/nodestate"
+	"go-vinu/common/mclock"
+	"go-vinu/common/prque"
+	"go-vinu/log"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/nodestate"
 )
 
 const (

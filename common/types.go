@@ -28,7 +28,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ur-os/go-vinu/common/hexutil"
+	"go-vinu/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

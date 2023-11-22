@@ -30,8 +30,8 @@ import (
 	"sync/atomic"
 
 	"github.com/rs/cors"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/log"
+	"go-vinu/rpc"
 )
 
 // httpConfig is the JSON-RPC/HTTP configuration.

@@ -1,4 +1,4 @@
-module github.com/ur-os/go-vinu
+module go-vinu
 
 go 1.15
 

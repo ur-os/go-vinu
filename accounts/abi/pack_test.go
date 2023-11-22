@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

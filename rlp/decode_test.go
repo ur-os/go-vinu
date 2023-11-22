@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common/math"
+	"go-vinu/common/math"
 )
 
 func TestStreamKind(t *testing.T) {

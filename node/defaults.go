@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/p2p/nat"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/p2p"
+	"go-vinu/p2p/nat"
+	"go-vinu/rpc"
 )
 
 const (

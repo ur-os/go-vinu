@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/ur-os/go-vinu/core/types"
+import "go-vinu/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

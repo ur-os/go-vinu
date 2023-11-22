@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/bitutil"
-	"github.com/ur-os/go-vinu/metrics"
-	"github.com/ur-os/go-vinu/p2p/rlpx"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/common/bitutil"
+	"go-vinu/metrics"
+	"go-vinu/p2p/rlpx"
+	"go-vinu/rlp"
 )
 
 const (

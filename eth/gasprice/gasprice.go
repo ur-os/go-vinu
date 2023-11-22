@@ -23,13 +23,13 @@ import (
 	"sync"
 
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/common"
+	"go-vinu/core"
+	"go-vinu/core/types"
+	"go-vinu/event"
+	"go-vinu/log"
+	"go-vinu/params"
+	"go-vinu/rpc"
 )
 
 const sampleNumber = 3 // Number of transactions sampled in a block

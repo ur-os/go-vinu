@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ur-os/go-vinu/tests/fuzzers/difficulty"
+	"go-vinu/tests/fuzzers/difficulty"
 )
 
 func main() {

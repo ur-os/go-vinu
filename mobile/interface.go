@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

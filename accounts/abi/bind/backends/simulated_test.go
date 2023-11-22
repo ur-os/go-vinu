@@ -27,14 +27,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu"
-	"github.com/ur-os/go-vinu/accounts/abi"
-	"github.com/ur-os/go-vinu/accounts/abi/bind"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu"
+	"go-vinu/accounts/abi"
+	"go-vinu/accounts/abi/bind"
+	"go-vinu/common"
+	"go-vinu/core"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
+	"go-vinu/params"
 )
 
 func TestSimulatedBackend(t *testing.T) {

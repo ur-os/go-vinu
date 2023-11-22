@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu/common"
 )
 
 type AddrLocker struct {

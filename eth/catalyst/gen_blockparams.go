@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
 )
 
 var _ = (*assembleBlockParamsMarshaling)(nil)

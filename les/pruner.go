@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common/math"
+	"go-vinu/core"
+	"go-vinu/ethdb"
+	"go-vinu/log"
 )
 
 // pruner is responsible for pruning historical light chain data.

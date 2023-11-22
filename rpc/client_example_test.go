@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/common/hexutil"
+	"go-vinu/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

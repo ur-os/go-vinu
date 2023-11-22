@@ -22,13 +22,13 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	math2 "github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/consensus/ethash"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	math2 "go-vinu/common/math"
+	"go-vinu/consensus/ethash"
+	"go-vinu/core"
+	"go-vinu/core/types"
+	"go-vinu/params"
 )
 
 // alethGenesisSpec represents the genesis specification format used by the

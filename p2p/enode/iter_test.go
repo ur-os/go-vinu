@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/p2p/enr"
+	"go-vinu/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

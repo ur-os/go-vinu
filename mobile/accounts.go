@@ -23,10 +23,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/accounts/keystore"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/accounts"
+	"go-vinu/accounts/keystore"
+	"go-vinu/common"
+	"go-vinu/crypto"
 )
 
 const (

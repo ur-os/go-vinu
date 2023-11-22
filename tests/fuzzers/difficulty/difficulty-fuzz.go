@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/consensus/ethash"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/consensus/ethash"
+	"go-vinu/core/types"
 )
 
 type fuzzer struct {

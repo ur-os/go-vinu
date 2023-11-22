@@ -5,8 +5,8 @@ Maintainer: {{.Author}}
 Build-Depends: debhelper (>= 8.0.0), {{.GoBootPackage}}
 Standards-Version: 3.9.5
 Homepage: https://ethereum.org
-Vcs-Git: git://github.com/ur-os/go-vinu.git
-Vcs-Browser: https://github.com/ur-os/go-vinu
+Vcs-Git: git://go-vinu.git
+Vcs-Browser: https://go-vinu
 
 Package: {{.Name}}
 Architecture: any

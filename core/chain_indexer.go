@@ -24,12 +24,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/ethdb"
+	"go-vinu/event"
+	"go-vinu/log"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

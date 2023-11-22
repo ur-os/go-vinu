@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
+	"go-vinu/common/mclock"
 )
 
 type UpdateTimer struct {

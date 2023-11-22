@@ -19,8 +19,8 @@ package memorydb
 import (
 	"testing"
 
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/ethdb/dbtest"
+	"go-vinu/ethdb"
+	"go-vinu/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {

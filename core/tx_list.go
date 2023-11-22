@@ -23,8 +23,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/common"
+	"go-vinu/core/types"
 )
 
 // nonceHeap is a heap.Interface implementation over 64bit unsigned integers for

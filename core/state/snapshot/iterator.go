@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/ethdb"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
+	"go-vinu/ethdb"
 )
 
 // Iterator is an iterator to step over all the accounts or the specific

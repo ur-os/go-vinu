@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/params"
 )
 
 const (

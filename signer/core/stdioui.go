@@ -19,9 +19,9 @@ package core
 import (
 	"context"
 
-	"github.com/ur-os/go-vinu/internal/ethapi"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/internal/ethapi"
+	"go-vinu/log"
+	"go-vinu/rpc"
 )
 
 type StdIOUI struct {

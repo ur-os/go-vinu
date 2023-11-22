@@ -21,8 +21,8 @@ import (
 	"net/http"
 
 	"github.com/graph-gophers/graphql-go"
-	"github.com/ur-os/go-vinu/internal/ethapi"
-	"github.com/ur-os/go-vinu/node"
+	"go-vinu/internal/ethapi"
+	"go-vinu/node"
 )
 
 type handler struct {

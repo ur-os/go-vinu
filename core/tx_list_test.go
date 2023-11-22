@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

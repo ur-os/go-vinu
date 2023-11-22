@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ur-os/go-vinu/node"
+	"go-vinu/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

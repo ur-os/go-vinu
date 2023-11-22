@@ -17,10 +17,10 @@
 package les
 
 import (
-	"github.com/ur-os/go-vinu/core/forkid"
-	"github.com/ur-os/go-vinu/p2p/dnsdisc"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/core/forkid"
+	"go-vinu/p2p/dnsdisc"
+	"go-vinu/p2p/enode"
+	"go-vinu/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

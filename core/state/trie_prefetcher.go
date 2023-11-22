@@ -19,9 +19,9 @@ package state
 import (
 	"sync"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/metrics"
+	"go-vinu/common"
+	"go-vinu/log"
+	"go-vinu/metrics"
 )
 
 var (

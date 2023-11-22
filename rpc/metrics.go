@@ -19,7 +19,7 @@ package rpc
 import (
 	"fmt"
 
-	"github.com/ur-os/go-vinu/metrics"
+	"go-vinu/metrics"
 )
 
 var (

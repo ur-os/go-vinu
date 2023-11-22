@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/consensus/ethash"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/consensus/ethash"
+	"go-vinu/core"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
+	"go-vinu/p2p/enode"
 )
 
 // verifyImportEvent verifies that one single event arrive on an import channel.

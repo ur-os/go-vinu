@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/consensus/ethash"
-	"github.com/ur-os/go-vinu/console/prompt"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/eth"
-	"github.com/ur-os/go-vinu/eth/ethconfig"
-	"github.com/ur-os/go-vinu/internal/jsre"
-	"github.com/ur-os/go-vinu/miner"
-	"github.com/ur-os/go-vinu/node"
+	"go-vinu/common"
+	"go-vinu/consensus/ethash"
+	"go-vinu/console/prompt"
+	"go-vinu/core"
+	"go-vinu/eth"
+	"go-vinu/eth/ethconfig"
+	"go-vinu/internal/jsre"
+	"go-vinu/miner"
+	"go-vinu/node"
 )
 
 const (

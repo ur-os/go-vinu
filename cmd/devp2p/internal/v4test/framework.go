@@ -22,9 +22,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/p2p/discover/v4wire"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/crypto"
+	"go-vinu/p2p/discover/v4wire"
+	"go-vinu/p2p/enode"
 )
 
 const waitTime = 300 * time.Millisecond

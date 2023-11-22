@@ -26,27 +26,27 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/tyler-smith/go-bip39"
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/accounts/abi"
-	"github.com/ur-os/go-vinu/accounts/keystore"
-	"github.com/ur-os/go-vinu/accounts/scwallet"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/consensus"
-	"github.com/ur-os/go-vinu/consensus/clique"
-	"github.com/ur-os/go-vinu/consensus/ethash"
-	"github.com/ur-os/go-vinu/consensus/misc"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/accounts"
+	"go-vinu/accounts/abi"
+	"go-vinu/accounts/keystore"
+	"go-vinu/accounts/scwallet"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/common/math"
+	"go-vinu/consensus"
+	"go-vinu/consensus/clique"
+	"go-vinu/consensus/ethash"
+	"go-vinu/consensus/misc"
+	"go-vinu/core"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/core/vm"
+	"go-vinu/crypto"
+	"go-vinu/log"
+	"go-vinu/p2p"
+	"go-vinu/params"
+	"go-vinu/rlp"
+	"go-vinu/rpc"
 )
 
 // PublicEthereumAPI provides an API to access Ethereum related information.
@@ -503,7 +503,7 @@ func (s *PrivateAccountAPI) SignTransaction(ctx context.Context, args Transactio
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://github.com/ur-os/go-vinu/wiki/Management-APIs#personal_sign
+// https://go-vinu/wiki/Management-APIs#personal_sign
 func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr common.Address, passwd string) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}
@@ -531,7 +531,7 @@ func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr c
 // Note, the signature must conform to the secp256k1 curve R, S and V values, where
 // the V value must be 27 or 28 for legacy reasons.
 //
-// https://github.com/ur-os/go-vinu/wiki/Management-APIs#personal_ecRecover
+// https://go-vinu/wiki/Management-APIs#personal_ecRecover
 func (s *PrivateAccountAPI) EcRecover(ctx context.Context, data, sig hexutil.Bytes) (common.Address, error) {
 	if len(sig) != crypto.SignatureLength {
 		return common.Address{}, fmt.Errorf("signature must be %d bytes long", crypto.SignatureLength)

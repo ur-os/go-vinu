@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/params"
 )
 
 // Forks table defines supported forks and their chain config.

@@ -30,10 +30,10 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/stretchr/testify/assert"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/crypto/ecies"
-	"github.com/ur-os/go-vinu/p2p/simulations/pipes"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/crypto"
+	"go-vinu/crypto/ecies"
+	"go-vinu/p2p/simulations/pipes"
+	"go-vinu/rlp"
 )
 
 type message struct {

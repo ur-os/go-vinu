@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/eth/protocols/eth"
-	"github.com/ur-os/go-vinu/eth/protocols/snap"
-	"github.com/ur-os/go-vinu/p2p"
+	"go-vinu/common"
+	"go-vinu/eth/protocols/eth"
+	"go-vinu/eth/protocols/snap"
+	"go-vinu/p2p"
 )
 
 var (

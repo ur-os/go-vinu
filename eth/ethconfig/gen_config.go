@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/consensus/ethash"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/eth/downloader"
-	"github.com/ur-os/go-vinu/eth/gasprice"
-	"github.com/ur-os/go-vinu/miner"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/consensus/ethash"
+	"go-vinu/core"
+	"go-vinu/eth/downloader"
+	"go-vinu/eth/gasprice"
+	"go-vinu/miner"
+	"go-vinu/params"
 )
 
 // MarshalTOML marshals as TOML.

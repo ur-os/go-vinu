@@ -26,11 +26,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/forkid"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/params"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/core"
+	"go-vinu/core/forkid"
+	"go-vinu/core/types"
+	"go-vinu/params"
+	"go-vinu/rlp"
 )
 
 type Chain struct {

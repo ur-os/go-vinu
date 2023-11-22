@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/crypto"
+	"go-vinu/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

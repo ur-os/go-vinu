@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ur-os/go-vinu"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/event"
+	"go-vinu"
+	"go-vinu/common"
+	"go-vinu/core/types"
+	"go-vinu/event"
 	"golang.org/x/crypto/sha3"
 )
 

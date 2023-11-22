@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ur-os/go-vinu/p2p/simulations/pipes"
+	"go-vinu/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

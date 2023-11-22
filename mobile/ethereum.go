@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	"github.com/ur-os/go-vinu"
-	"github.com/ur-os/go-vinu/common"
+	"go-vinu"
+	"go-vinu/common"
 )
 
 // Subscription represents an event subscription where events are

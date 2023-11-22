@@ -24,16 +24,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/mclock"
-	"github.com/ur-os/go-vinu/core/forkid"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/eth/downloader"
-	"github.com/ur-os/go-vinu/eth/protocols/eth"
-	"github.com/ur-os/go-vinu/light"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/common/mclock"
+	"go-vinu/core/forkid"
+	"go-vinu/core/types"
+	"go-vinu/eth/downloader"
+	"go-vinu/eth/protocols/eth"
+	"go-vinu/light"
+	"go-vinu/log"
+	"go-vinu/p2p"
+	"go-vinu/params"
 )
 
 // clientHandler is responsible for receiving and processing all incoming server

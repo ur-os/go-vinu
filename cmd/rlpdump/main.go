@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/rlp"
 )
 
 var (

@@ -26,7 +26,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/rpc"
 )
 
 // This test uses the admin_startRPC and admin_startWS APIs,

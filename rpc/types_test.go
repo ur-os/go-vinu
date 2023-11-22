@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/math"
+	"go-vinu/common"
+	"go-vinu/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

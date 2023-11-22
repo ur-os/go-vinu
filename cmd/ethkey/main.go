@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ur-os/go-vinu/internal/flags"
+	"go-vinu/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

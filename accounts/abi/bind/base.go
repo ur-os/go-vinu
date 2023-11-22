@@ -24,12 +24,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ur-os/go-vinu"
-	"github.com/ur-os/go-vinu/accounts/abi"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/event"
+	"go-vinu"
+	"go-vinu/accounts/abi"
+	"go-vinu/common"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
+	"go-vinu/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

@@ -25,12 +25,12 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/vm"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/core"
+	"go-vinu/core/vm"
+	"go-vinu/crypto"
+	"go-vinu/log"
 	"gopkg.in/olebedev/go-duktape.v3"
 )
 

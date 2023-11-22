@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/ur-os/go-vinu/core/vm/runtime"
+	"go-vinu/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

@@ -23,12 +23,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/crypto"
-	vfc "github.com/ur-os/go-vinu/les/vflux/client"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/common"
+	"go-vinu/core/types"
+	"go-vinu/crypto"
+	vfc "go-vinu/les/vflux/client"
+	"go-vinu/p2p/enode"
+	"go-vinu/rlp"
 )
 
 // Constants to match up protocol versions and messages

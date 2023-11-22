@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/rawdb"
-	"github.com/ur-os/go-vinu/core/types"
+	"go-vinu/common"
+	"go-vinu/core/rawdb"
+	"go-vinu/core/types"
 )
 
 // Runs multiple tests with randomized parameters.

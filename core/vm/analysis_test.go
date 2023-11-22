@@ -19,7 +19,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

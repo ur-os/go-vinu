@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
+	"go-vinu/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

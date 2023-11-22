@@ -20,7 +20,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 type (

@@ -21,7 +21,7 @@ package metrics
 
 import (
 	"github.com/shirou/gopsutil/cpu"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // ReadCPUStats retrieves the current CPU stats.

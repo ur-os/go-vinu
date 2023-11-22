@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/enr"
-	"github.com/ur-os/go-vinu/p2p/netutil"
+	"go-vinu/log"
+	"go-vinu/p2p/enr"
+	"go-vinu/p2p/netutil"
 )
 
 const (

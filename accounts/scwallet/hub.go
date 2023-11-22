@@ -42,10 +42,10 @@ import (
 	"time"
 
 	pcsc "github.com/gballet/go-libpcsclite"
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/accounts"
+	"go-vinu/common"
+	"go-vinu/event"
+	"go-vinu/log"
 )
 
 // Scheme is the URI prefix for smartcard wallets.

@@ -22,7 +22,7 @@ package metrics
 import (
 	syscall "golang.org/x/sys/unix"
 
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

@@ -21,13 +21,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/bloombits"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/rpc"
+	"go-vinu/common"
+	"go-vinu/core"
+	"go-vinu/core/bloombits"
+	"go-vinu/core/types"
+	"go-vinu/ethdb"
+	"go-vinu/event"
+	"go-vinu/rpc"
 )
 
 type Backend interface {

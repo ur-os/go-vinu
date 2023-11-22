@@ -28,12 +28,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/internal/testlog"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/discover/v5wire"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/p2p/enr"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/internal/testlog"
+	"go-vinu/log"
+	"go-vinu/p2p/discover/v5wire"
+	"go-vinu/p2p/enode"
+	"go-vinu/p2p/enr"
+	"go-vinu/rlp"
 )
 
 // Real sockets, real crypto: this test checks end-to-end connectivity for UDPv5.

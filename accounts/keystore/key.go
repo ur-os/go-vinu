@@ -30,9 +30,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
+	"go-vinu/accounts"
+	"go-vinu/common"
+	"go-vinu/crypto"
 )
 
 const (

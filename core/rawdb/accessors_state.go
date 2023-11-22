@@ -17,9 +17,9 @@
 package rawdb
 
 import (
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/ethdb"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common"
+	"go-vinu/ethdb"
+	"go-vinu/log"
 )
 
 // ReadPreimage retrieves a single preimage of the provided hash.

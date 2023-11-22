@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/ur-os/go-vinu/internal/debug"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/internal/debug"
+	"go-vinu/p2p/enode"
+	"go-vinu/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

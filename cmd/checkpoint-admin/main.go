@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ur-os/go-vinu/common/fdlimit"
-	"github.com/ur-os/go-vinu/internal/flags"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common/fdlimit"
+	"go-vinu/internal/flags"
+	"go-vinu/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

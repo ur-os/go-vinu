@@ -21,7 +21,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/rlp"
 )
 
 var ErrNoReply = errors.New("no reply for given request")

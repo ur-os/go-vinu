@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/common/mclock"
+	"go-vinu/common/mclock"
 )
 
 type testNode struct {

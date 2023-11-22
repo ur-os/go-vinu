@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/params"
 )
 
 var (

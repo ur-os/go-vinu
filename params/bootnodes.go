@@ -16,7 +16,7 @@
 
 package params
 
-import "github.com/ur-os/go-vinu/common"
+import "go-vinu/common"
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Ethereum network.

@@ -20,9 +20,9 @@ import (
 	"container/ring"
 	"sync"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/log"
+	"go-vinu/common"
+	"go-vinu/core/types"
+	"go-vinu/log"
 )
 
 // chainRetriever is used by the unconfirmed block set to verify whether a previously

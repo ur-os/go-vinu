@@ -24,9 +24,9 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/crypto"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/crypto"
+	"go-vinu/params"
 )
 
 type TwoOperandTestcase struct {

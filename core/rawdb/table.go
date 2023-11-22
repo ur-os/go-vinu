@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"github.com/ur-os/go-vinu/ethdb"
+	"go-vinu/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

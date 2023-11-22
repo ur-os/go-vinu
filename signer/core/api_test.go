@@ -27,17 +27,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ur-os/go-vinu/accounts"
-	"github.com/ur-os/go-vinu/accounts/keystore"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/internal/ethapi"
-	"github.com/ur-os/go-vinu/rlp"
-	"github.com/ur-os/go-vinu/signer/core"
-	"github.com/ur-os/go-vinu/signer/core/apitypes"
-	"github.com/ur-os/go-vinu/signer/fourbyte"
-	"github.com/ur-os/go-vinu/signer/storage"
+	"go-vinu/accounts"
+	"go-vinu/accounts/keystore"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/core/types"
+	"go-vinu/internal/ethapi"
+	"go-vinu/rlp"
+	"go-vinu/signer/core"
+	"go-vinu/signer/core/apitypes"
+	"go-vinu/signer/fourbyte"
+	"go-vinu/signer/storage"
 )
 
 // Used for testing

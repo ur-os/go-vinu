@@ -17,10 +17,10 @@
 package eth
 
 import (
-	"github.com/ur-os/go-vinu/core"
-	"github.com/ur-os/go-vinu/core/forkid"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/core"
+	"go-vinu/core/forkid"
+	"go-vinu/p2p/enode"
+	"go-vinu/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `eth` protocol on the discovery.

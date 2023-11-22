@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/les/utils"
-	"github.com/ur-os/go-vinu/les/vflux"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/p2p/enode"
-	"github.com/ur-os/go-vinu/rlp"
+	"go-vinu/les/utils"
+	"go-vinu/les/vflux"
+	"go-vinu/log"
+	"go-vinu/p2p/enode"
+	"go-vinu/rlp"
 )
 
 type (

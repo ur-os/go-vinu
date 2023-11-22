@@ -30,7 +30,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/params"
 )
 
 var (

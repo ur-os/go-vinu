@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ur-os/go-vinu/accounts/keystore"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/console/prompt"
-	"github.com/ur-os/go-vinu/p2p/dnsdisc"
-	"github.com/ur-os/go-vinu/p2p/enode"
+	"go-vinu/accounts/keystore"
+	"go-vinu/common"
+	"go-vinu/console/prompt"
+	"go-vinu/p2p/dnsdisc"
+	"go-vinu/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

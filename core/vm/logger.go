@@ -25,11 +25,11 @@ import (
 	"time"
 
 	"github.com/holiman/uint256"
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/hexutil"
-	"github.com/ur-os/go-vinu/common/math"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/common/hexutil"
+	"go-vinu/common/math"
+	"go-vinu/core/types"
+	"go-vinu/params"
 )
 
 // Storage represents a contract's storage.

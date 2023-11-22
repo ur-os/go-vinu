@@ -24,15 +24,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ur-os/go-vinu/common"
-	"github.com/ur-os/go-vinu/common/prque"
-	"github.com/ur-os/go-vinu/consensus/misc"
-	"github.com/ur-os/go-vinu/core/state"
-	"github.com/ur-os/go-vinu/core/types"
-	"github.com/ur-os/go-vinu/event"
-	"github.com/ur-os/go-vinu/log"
-	"github.com/ur-os/go-vinu/metrics"
-	"github.com/ur-os/go-vinu/params"
+	"go-vinu/common"
+	"go-vinu/common/prque"
+	"go-vinu/consensus/misc"
+	"go-vinu/core/state"
+	"go-vinu/core/types"
+	"go-vinu/event"
+	"go-vinu/log"
+	"go-vinu/metrics"
+	"go-vinu/params"
 )
 
 const (
