@@ -24,12 +24,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/core/rawdb"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/ethdb"
+	"github.com/ur-os/go-vinu/event"
+	"github.com/ur-os/go-vinu/log"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

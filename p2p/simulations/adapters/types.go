@@ -26,14 +26,14 @@ import (
 	"strconv"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/gorilla/websocket"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/log"
+	"github.com/ur-os/go-vinu/node"
+	"github.com/ur-os/go-vinu/p2p"
+	"github.com/ur-os/go-vinu/p2p/enode"
+	"github.com/ur-os/go-vinu/p2p/enr"
+	"github.com/ur-os/go-vinu/rpc"
 )
 
 // Node represents a node in a simulation network which is created by a
@@ -42,7 +42,6 @@ import (
 // * SimNode    - An in-memory node
 // * ExecNode   - A child process node
 // * DockerNode - A Docker container node
-//
 type Node interface {
 	// Addr returns the node's address (e.g. an Enode URL)
 	Addr() []byte

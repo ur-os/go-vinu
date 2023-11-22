@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/consensus/ethash"
+	"github.com/ur-os/go-vinu/core"
+	"github.com/ur-os/go-vinu/core/rawdb"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/params"
 )
 
 // Test chain parameters.

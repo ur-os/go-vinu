@@ -27,11 +27,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/msgrate"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/eth/protocols/eth"
+	"github.com/ur-os/go-vinu/event"
+	"github.com/ur-os/go-vinu/log"
+	"github.com/ur-os/go-vinu/p2p/msgrate"
 )
 
 const (

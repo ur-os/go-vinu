@@ -22,17 +22,17 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	l "github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/consensus/ethash"
+	"github.com/ur-os/go-vinu/core"
+	"github.com/ur-os/go-vinu/core/rawdb"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/core/vm"
+	"github.com/ur-os/go-vinu/crypto"
+	l "github.com/ur-os/go-vinu/les"
+	"github.com/ur-os/go-vinu/params"
+	"github.com/ur-os/go-vinu/rlp"
+	"github.com/ur-os/go-vinu/trie"
 )
 
 var (

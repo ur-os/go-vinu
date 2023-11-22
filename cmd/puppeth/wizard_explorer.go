@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/ur-os/go-vinu/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

@@ -23,12 +23,12 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/core/rawdb"
+	"github.com/ur-os/go-vinu/ethdb"
+	"github.com/ur-os/go-vinu/ethdb/leveldb"
+	"github.com/ur-os/go-vinu/ethdb/memorydb"
+	"github.com/ur-os/go-vinu/rlp"
 )
 
 // reverse reverses the contents of a byte slice. It's used to update random accs

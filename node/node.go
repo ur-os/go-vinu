@@ -26,14 +26,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/prometheus/tsdb/fileutil"
+	"github.com/ur-os/go-vinu/accounts"
+	"github.com/ur-os/go-vinu/core/rawdb"
+	"github.com/ur-os/go-vinu/ethdb"
+	"github.com/ur-os/go-vinu/event"
+	"github.com/ur-os/go-vinu/log"
+	"github.com/ur-os/go-vinu/p2p"
+	"github.com/ur-os/go-vinu/rpc"
 )
 
 // Node is a container on which services can be registered.

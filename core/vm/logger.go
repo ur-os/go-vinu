@@ -24,12 +24,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/common/hexutil"
+	"github.com/ur-os/go-vinu/common/math"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/params"
 )
 
 // Storage represents a contract's storage.

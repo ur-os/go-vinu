@@ -23,10 +23,10 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ur-os/go-vinu/common/math"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/p2p/enr"
+	"github.com/ur-os/go-vinu/rlp"
 )
 
 // List of known secure identity schemes.

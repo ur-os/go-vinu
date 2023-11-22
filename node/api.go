@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ur-os/go-vinu/common/hexutil"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/internal/debug"
+	"github.com/ur-os/go-vinu/log"
+	"github.com/ur-os/go-vinu/p2p"
+	"github.com/ur-os/go-vinu/p2p/enode"
+	"github.com/ur-os/go-vinu/rpc"
 )
 
 // apis returns the collection of built-in RPC APIs.

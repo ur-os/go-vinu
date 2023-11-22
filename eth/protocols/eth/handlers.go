@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/log"
+	"github.com/ur-os/go-vinu/rlp"
+	"github.com/ur-os/go-vinu/trie"
 )
 
 // handleGetBlockHeaders handles Block header query, collect the requested headers and reply

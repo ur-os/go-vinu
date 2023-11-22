@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/core/rawdb"
+	"github.com/ur-os/go-vinu/ethdb"
+	"github.com/ur-os/go-vinu/ethdb/memorydb"
+	"github.com/ur-os/go-vinu/log"
+	"github.com/ur-os/go-vinu/rlp"
+	"github.com/ur-os/go-vinu/trie"
 	"golang.org/x/crypto/sha3"
 )
 
@@ -234,10 +234,12 @@ func (t *testHelper) Generate() (common.Hash, *diskLayer) {
 //   - miss in the beginning
 //   - miss in the middle
 //   - miss in the end
+//
 // - the contract(non-empty storage) has wrong storage slots
 //   - wrong slots in the beginning
 //   - wrong slots in the middle
 //   - wrong slots in the end
+//
 // - the contract(non-empty storage) has extra storage slots
 //   - extra slots in the beginning
 //   - extra slots in the middle

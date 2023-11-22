@@ -23,13 +23,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/core"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/eth/protocols/eth"
+	"github.com/ur-os/go-vinu/log"
+	"github.com/ur-os/go-vinu/p2p/enode"
+	"github.com/ur-os/go-vinu/trie"
 )
 
 // ethHandler implements the eth.Backend interface to handle the various network

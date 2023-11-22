@@ -21,17 +21,17 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/consensus/ethash"
+	"github.com/ur-os/go-vinu/core"
+	"github.com/ur-os/go-vinu/core/rawdb"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/core/vm"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/eth/downloader"
+	"github.com/ur-os/go-vinu/ethdb"
+	"github.com/ur-os/go-vinu/event"
+	"github.com/ur-os/go-vinu/params"
 )
 
 var (

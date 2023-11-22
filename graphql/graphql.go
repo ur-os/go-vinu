@@ -25,15 +25,15 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ur-os/go-vinu"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/common/hexutil"
+	"github.com/ur-os/go-vinu/common/math"
+	"github.com/ur-os/go-vinu/core/state"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/eth/filters"
+	"github.com/ur-os/go-vinu/internal/ethapi"
+	"github.com/ur-os/go-vinu/rpc"
 )
 
 var (

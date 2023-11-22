@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/params"
 )
 
 var ErrInvalidChainId = errors.New("invalid chain id for signer")
@@ -540,7 +540,6 @@ func WrapWithCachedSigner(signer Signer, cache SenderCache) CachedSigner {
 		cache:  cache,
 	}
 }
-
 
 func (cs CachedSigner) Equal(s2 Signer) bool {
 	cs2, ok := s2.(CachedSigner)

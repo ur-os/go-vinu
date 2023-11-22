@@ -22,10 +22,10 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/hashicorp/golang-lru/simplelru"
+	"github.com/ur-os/go-vinu/common/mclock"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/p2p/enode"
 )
 
 const handshakeTimeout = time.Second

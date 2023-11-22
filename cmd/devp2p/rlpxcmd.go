@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ur-os/go-vinu/cmd/devp2p/internal/ethtest"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/internal/utesting"
+	"github.com/ur-os/go-vinu/p2p"
+	"github.com/ur-os/go-vinu/p2p/rlpx"
+	"github.com/ur-os/go-vinu/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

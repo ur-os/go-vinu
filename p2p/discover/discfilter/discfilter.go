@@ -3,8 +3,8 @@ package discfilter
 import (
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/ur-os/go-vinu/p2p/enode"
+	"github.com/ur-os/go-vinu/p2p/enr"
 )
 
 var (

@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/consensus/ethash"
+	"github.com/ur-os/go-vinu/console/prompt"
+	"github.com/ur-os/go-vinu/core"
+	"github.com/ur-os/go-vinu/eth"
+	"github.com/ur-os/go-vinu/eth/ethconfig"
+	"github.com/ur-os/go-vinu/internal/jsre"
+	"github.com/ur-os/go-vinu/miner"
+	"github.com/ur-os/go-vinu/node"
 )
 
 const (

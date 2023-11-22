@@ -20,12 +20,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nodestate"
+	"github.com/ur-os/go-vinu/common/mclock"
+	"github.com/ur-os/go-vinu/ethdb"
+	"github.com/ur-os/go-vinu/les/utils"
+	"github.com/ur-os/go-vinu/p2p/enode"
+	"github.com/ur-os/go-vinu/p2p/enr"
+	"github.com/ur-os/go-vinu/p2p/nodestate"
 )
 
 const (

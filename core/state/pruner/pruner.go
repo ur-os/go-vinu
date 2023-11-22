@@ -27,16 +27,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/core/rawdb"
+	"github.com/ur-os/go-vinu/core/state"
+	"github.com/ur-os/go-vinu/core/state/snapshot"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/ethdb"
+	"github.com/ur-os/go-vinu/log"
+	"github.com/ur-os/go-vinu/rlp"
+	"github.com/ur-os/go-vinu/trie"
 )
 
 const (
@@ -67,9 +67,9 @@ var (
 // Pruner is an offline tool to prune the stale state with the
 // help of the snapshot. The workflow of pruner is very simple:
 //
-// - iterate the snapshot, reconstruct the relevant state
-// - iterate the database, delete all other state entries which
-//   don't belong to the target state and the genesis state
+//   - iterate the snapshot, reconstruct the relevant state
+//   - iterate the database, delete all other state entries which
+//     don't belong to the target state and the genesis state
 //
 // It can take several hours(around 2 hours for mainnet) to finish
 // the whole pruning work. It's recommended to run this offline tool

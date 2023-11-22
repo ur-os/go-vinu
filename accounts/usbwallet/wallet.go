@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/karalabe/usb"
+	"github.com/ur-os/go-vinu"
+	"github.com/ur-os/go-vinu/accounts"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/log"
 )
 
 // Maximum time between wallet health checks to detect USB unplugs.

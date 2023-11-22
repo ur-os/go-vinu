@@ -24,13 +24,13 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/ur-os/go-vinu/accounts"
+	"github.com/ur-os/go-vinu/accounts/external"
+	"github.com/ur-os/go-vinu/accounts/keystore"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/log"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

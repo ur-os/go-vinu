@@ -25,18 +25,18 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/common/hexutil"
+	"github.com/ur-os/go-vinu/common/math"
+	"github.com/ur-os/go-vinu/core/rawdb"
+	"github.com/ur-os/go-vinu/core/state"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/ethdb"
+	"github.com/ur-os/go-vinu/log"
+	"github.com/ur-os/go-vinu/params"
+	"github.com/ur-os/go-vinu/rlp"
+	"github.com/ur-os/go-vinu/trie"
 )
 
 //go:generate gencodec -type Genesis -field-override genesisSpecMarshaling -out gen_genesis.go
@@ -144,10 +144,10 @@ func (e *GenesisMismatchError) Error() string {
 // SetupGenesisBlock writes or updates the genesis block in db.
 // The block that will be used is:
 //
-//                          genesis == nil       genesis != nil
-//                       +------------------------------------------
-//     db has no genesis |  main-net default  |  genesis
-//     db has genesis    |  from DB           |  genesis (if compatible)
+//	                     genesis == nil       genesis != nil
+//	                  +------------------------------------------
+//	db has no genesis |  main-net default  |  genesis
+//	db has genesis    |  from DB           |  genesis (if compatible)
 //
 // The stored chain configuration will be updated if it is compatible (i.e. does not
 // specify a fork block below the local head block). In case of a conflict, the

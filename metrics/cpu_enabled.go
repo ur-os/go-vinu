@@ -14,13 +14,14 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
 
+//go:build !ios
 // +build !ios
 
 package metrics
 
 import (
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/shirou/gopsutil/cpu"
+	"github.com/ur-os/go-vinu/log"
 )
 
 // ReadCPUStats retrieves the current CPU stats.

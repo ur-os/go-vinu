@@ -21,9 +21,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/ethdb/memorydb"
+	"github.com/ur-os/go-vinu/trie"
 )
 
 // randTest performs random trie operations.
@@ -124,8 +124,10 @@ func Generate(input []byte) randTest {
 
 // The function must return
 // 1 if the fuzzer should increase priority of the
-//    given input during subsequent fuzzing (for example, the input is lexically
-//    correct and was parsed successfully);
+//
+//	given input during subsequent fuzzing (for example, the input is lexically
+//	correct and was parsed successfully);
+//
 // -1 if the input must not be added to corpus even if gives new coverage; and
 // 0  otherwise
 // other values are reserved for future use.

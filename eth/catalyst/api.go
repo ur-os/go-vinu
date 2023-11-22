@@ -23,17 +23,17 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	chainParams "github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/consensus/misc"
+	"github.com/ur-os/go-vinu/core"
+	"github.com/ur-os/go-vinu/core/state"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/eth"
+	"github.com/ur-os/go-vinu/log"
+	"github.com/ur-os/go-vinu/node"
+	chainParams "github.com/ur-os/go-vinu/params"
+	"github.com/ur-os/go-vinu/rpc"
+	"github.com/ur-os/go-vinu/trie"
 )
 
 // Register adds catalyst APIs to the node.

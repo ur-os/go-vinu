@@ -25,13 +25,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common/compiler"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/ur-os/go-vinu/accounts/abi"
+	"github.com/ur-os/go-vinu/accounts/abi/bind"
+	"github.com/ur-os/go-vinu/cmd/utils"
+	"github.com/ur-os/go-vinu/common/compiler"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/internal/flags"
+	"github.com/ur-os/go-vinu/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

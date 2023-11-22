@@ -27,20 +27,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/ur-os/go-vinu/accounts"
+	"github.com/ur-os/go-vinu/accounts/keystore"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/common/hexutil"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/internal/ethapi"
+	"github.com/ur-os/go-vinu/rlp"
+	"github.com/ur-os/go-vinu/signer/core"
+	"github.com/ur-os/go-vinu/signer/core/apitypes"
+	"github.com/ur-os/go-vinu/signer/fourbyte"
+	"github.com/ur-os/go-vinu/signer/storage"
 )
 
-//Used for testing
+// Used for testing
 type headlessUi struct {
 	approveCh chan string // to send approve/deny
 	inputCh   chan string // to send password

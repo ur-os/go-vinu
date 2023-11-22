@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/core/state/snapshot"
+	"github.com/ur-os/go-vinu/rlp"
 )
 
 // Constants to match up protocol versions and messages

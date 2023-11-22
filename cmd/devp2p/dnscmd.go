@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ur-os/go-vinu/accounts/keystore"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/console/prompt"
+	"github.com/ur-os/go-vinu/p2p/dnsdisc"
+	"github.com/ur-os/go-vinu/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -23,12 +23,12 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ur-os/go-vinu"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/common/hexutil"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/p2p"
+	"github.com/ur-os/go-vinu/rpc"
 )
 
 // Client is a wrapper around rpc.Client that implements geth-specific functionality.

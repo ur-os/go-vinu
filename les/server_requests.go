@@ -20,15 +20,15 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/core"
+	"github.com/ur-os/go-vinu/core/state"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/light"
+	"github.com/ur-os/go-vinu/log"
+	"github.com/ur-os/go-vinu/metrics"
+	"github.com/ur-os/go-vinu/rlp"
+	"github.com/ur-os/go-vinu/trie"
 )
 
 // serverBackend defines the backend functions needed for serving LES requests

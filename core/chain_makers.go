@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/consensus"
+	"github.com/ur-os/go-vinu/consensus/misc"
+	"github.com/ur-os/go-vinu/core/state"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/core/vm"
+	"github.com/ur-os/go-vinu/ethdb"
+	"github.com/ur-os/go-vinu/params"
 )
 
 // BlockGen creates blocks for testing.

@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/ur-os/go-vinu/log"
 )
 
 var (
@@ -43,21 +43,20 @@ func SetExecutionTimeLimit(limit time.Duration) {
 //
 // The entry points for incoming messages are:
 //
-//    h.handleMsg(message)
-//    h.handleBatch(message)
+//	h.handleMsg(message)
+//	h.handleBatch(message)
 //
 // Outgoing calls use the requestOp struct. Register the request before sending it
 // on the connection:
 //
-//    op := &requestOp{ids: ...}
-//    h.addRequestOp(op)
+//	op := &requestOp{ids: ...}
+//	h.addRequestOp(op)
 //
 // Now send the request, then wait for the reply to be delivered through handleMsg:
 //
-//    if err := op.wait(...); err != nil {
-//        h.removeRequestOp(op) // timeout, etc.
-//    }
-//
+//	if err := op.wait(...); err != nil {
+//	    h.removeRequestOp(op) // timeout, etc.
+//	}
 type handler struct {
 	reg            *serviceRegistry
 	unsubscribeCb  *callback

@@ -25,28 +25,28 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/tyler-smith/go-bip39"
+	"github.com/ur-os/go-vinu/accounts"
+	"github.com/ur-os/go-vinu/accounts/abi"
+	"github.com/ur-os/go-vinu/accounts/keystore"
+	"github.com/ur-os/go-vinu/accounts/scwallet"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/common/hexutil"
+	"github.com/ur-os/go-vinu/common/math"
+	"github.com/ur-os/go-vinu/consensus"
+	"github.com/ur-os/go-vinu/consensus/clique"
+	"github.com/ur-os/go-vinu/consensus/ethash"
+	"github.com/ur-os/go-vinu/consensus/misc"
+	"github.com/ur-os/go-vinu/core"
+	"github.com/ur-os/go-vinu/core/state"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/core/vm"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/log"
+	"github.com/ur-os/go-vinu/p2p"
+	"github.com/ur-os/go-vinu/params"
+	"github.com/ur-os/go-vinu/rlp"
+	"github.com/ur-os/go-vinu/rpc"
 )
 
 // PublicEthereumAPI provides an API to access Ethereum related information.
@@ -503,7 +503,7 @@ func (s *PrivateAccountAPI) SignTransaction(ctx context.Context, args Transactio
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://github.com/ethereum/go-ethereum/wiki/Management-APIs#personal_sign
+// https://github.com/ur-os/go-vinu/wiki/Management-APIs#personal_sign
 func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr common.Address, passwd string) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}
@@ -531,7 +531,7 @@ func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr c
 // Note, the signature must conform to the secp256k1 curve R, S and V values, where
 // the V value must be 27 or 28 for legacy reasons.
 //
-// https://github.com/ethereum/go-ethereum/wiki/Management-APIs#personal_ecRecover
+// https://github.com/ur-os/go-vinu/wiki/Management-APIs#personal_ecRecover
 func (s *PrivateAccountAPI) EcRecover(ctx context.Context, data, sig hexutil.Bytes) (common.Address, error) {
 	if len(sig) != crypto.SignatureLength {
 		return common.Address{}, fmt.Errorf("signature must be %d bytes long", crypto.SignatureLength)
@@ -728,10 +728,10 @@ func (s *PublicBlockChainAPI) GetHeaderByHash(ctx context.Context, hash common.H
 }
 
 // GetBlockByNumber returns the requested canonical block.
-// * When blockNr is -1 the chain head is returned.
-// * When blockNr is -2 the pending chain head is returned.
-// * When fullTx is true all transactions in the block are returned, otherwise
-//   only the transaction hash is returned.
+//   - When blockNr is -1 the chain head is returned.
+//   - When blockNr is -2 the pending chain head is returned.
+//   - When fullTx is true all transactions in the block are returned, otherwise
+//     only the transaction hash is returned.
 func (s *PublicBlockChainAPI) GetBlockByNumber(ctx context.Context, number rpc.BlockNumber, fullTx bool) (map[string]interface{}, error) {
 	block, err := s.b.BlockByNumber(ctx, number)
 	if block != nil && err == nil {

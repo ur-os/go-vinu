@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
+	"github.com/ur-os/go-vinu/crypto"
+	"github.com/ur-os/go-vinu/internal/testlog"
+	"github.com/ur-os/go-vinu/log"
+	"github.com/ur-os/go-vinu/p2p/enode"
+	"github.com/ur-os/go-vinu/p2p/enr"
+	"github.com/ur-os/go-vinu/p2p/rlpx"
 )
 
 type testTransport struct {

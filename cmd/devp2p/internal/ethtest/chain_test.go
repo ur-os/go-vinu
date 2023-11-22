@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/stretchr/testify/assert"
+	"github.com/ur-os/go-vinu/eth/protocols/eth"
+	"github.com/ur-os/go-vinu/p2p"
 )
 
 // TestEthProtocolNegotiation tests whether the test suite

@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ur-os/go-vinu"
+	"github.com/ur-os/go-vinu/common"
+	"github.com/ur-os/go-vinu/core/rawdb"
+	"github.com/ur-os/go-vinu/core/state/snapshot"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/eth/protocols/eth"
+	"github.com/ur-os/go-vinu/ethdb"
+	"github.com/ur-os/go-vinu/event"
+	"github.com/ur-os/go-vinu/trie"
 )
 
 // Reduce some of the parameters to make the tester faster.

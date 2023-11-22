@@ -26,11 +26,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ur-os/go-vinu/core"
+	"github.com/ur-os/go-vinu/core/forkid"
+	"github.com/ur-os/go-vinu/core/types"
+	"github.com/ur-os/go-vinu/params"
+	"github.com/ur-os/go-vinu/rlp"
 )
 
 type Chain struct {
